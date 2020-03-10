@@ -28,7 +28,7 @@ let make = () => {
         alt="Sunset in the mountains"
       />
     </a>
-    <div className="max-w-xl">
+    <div className="max-w-xl mt-2">
       {switch (url.path) {
        | ["quiz"] => <QuizComponent questions={data |> Data.questions} />
        | _ => showHome()

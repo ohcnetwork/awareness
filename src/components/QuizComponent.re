@@ -17,7 +17,7 @@ let updateAnswer = (setState, answer, _event) => {
 let showSelectedAnswer = state => {
   switch (state.selectedAnser) {
   | Some(answer) =>
-    <div className="px-6 py-4">
+    <div className="mt-4">
       <div className="font-bold text-xl mb-2">
         {answer |> Answer.title |> str}
       </div>
@@ -29,17 +29,19 @@ let showSelectedAnswer = state => {
             )
          |> React.array}
       </div>
-      {switch (answer |> Answer.youtubeUrl) {
-       | Some(src) => <iframe className="w-full" height="auto" src />
-       | None => React.null
-       }}
+      <div className="mt-4">
+        {switch (answer |> Answer.youtubeUrl) {
+         | Some(src) => <iframe className="w-full" height="315" src />
+         | None => React.null
+         }}
+      </div>
     </div>
   | None => React.null
   };
 };
 
 let showQuestion = (question, setState, state) => {
-  <div className="px-6 py-4">
+  <div className="mt-4">
     <div className="font-bold text-xl mb-2">
       {question |> Question.title |> str}
     </div>
@@ -93,7 +95,7 @@ let showQuiz = (questions, currentQuestion, setState, state) => {
        | None => React.null
        }}
     </div>
-    <div>
+    <div className="my-4">
       {switch (state.selectedAnser) {
        | Some(_) =>
          isLastQuestion
@@ -122,7 +124,7 @@ let make = (~questions) => {
   let currentQuestion =
     questions |> ArrayUtils.getOpt(state.currentQuestionIndex);
 
-  <div className="rounded overflow-hidden shadow-lg p-4">
+  <div className="rounded overflow-hidden shadow-lg border p-4">
     {switch (state.page) {
      | Quiz => showQuiz(questions, currentQuestion, setState, state)
      | Complete => showSucess()
