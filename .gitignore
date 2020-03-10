@@ -11,3 +11,5 @@ npm-debug.log
 _redirects
 build/
 yarn.lock
+/dist
+.cache
