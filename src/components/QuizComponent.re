@@ -21,7 +21,18 @@ let showSelectedAnswer = state => {
       <div className="font-bold text-xl mb-2">
         {answer |> Answer.title |> str}
       </div>
-      <div> {answer |> Answer.description |> str} </div>
+      <div>
+        {answer
+         |> Answer.description
+         |> Array.mapi((index, d) =>
+              <div key={index |> string_of_int}> {d |> str} </div>
+            )
+         |> React.array}
+      </div>
+      {switch (answer |> Answer.youtubeUrl) {
+       | Some(src) => <iframe className="w-full" height="auto" src />
+       | None => React.null
+       }}
     </div>
   | None => React.null
   };
@@ -36,12 +47,13 @@ let showQuestion = (question, setState, state) => {
       {question
        |> Question.answers
        |> Array.map(answer => {
-            <button
-              key={answer |> Answer.title}
-              className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white"
-              onClick={updateAnswer(setState, answer)}>
-              {answer |> Answer.title |> str}
-            </button>
+            <div key={answer |> Answer.title}>
+              <button
+                className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white btn-large mt-2 w-full"
+                onClick={updateAnswer(setState, answer)}>
+                {answer |> Answer.title |> str}
+              </button>
+            </div>
           })
        |> React.array}
     </div>
@@ -110,7 +122,7 @@ let make = (~questions) => {
   let currentQuestion =
     questions |> ArrayUtils.getOpt(state.currentQuestionIndex);
 
-  <div className="max-w-sm rounded overflow-hidden shadow-lg p-4">
+  <div className="rounded overflow-hidden shadow-lg p-4">
     {switch (state.page) {
      | Quiz => showQuiz(questions, currentQuestion, setState, state)
      | Complete => showSucess()

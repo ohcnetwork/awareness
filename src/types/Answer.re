@@ -1,6 +1,6 @@
 type t = {
   title: string,
-  description: string,
+  description: array(string),
   imageUrl: option(string),
   youtubeUrl: option(string),
   correctAnswer: bool,
@@ -19,13 +19,14 @@ let correctAnswer = t => t.correctAnswer;
 
 let makeArray = answers => {
   answers
-  |> Array.map(a =>
+  |> Array.map(a => {
+       Js.log(a##description);
        make(
          ~title=a##title,
-         ~description=a##description,
+         ~description=a##description |> Array.map(d => d),
          ~imageUrl=a##imageUrl,
-         ~youtubeUrl=a##youtubeUrl,
+         ~youtubeUrl=a##youtubeUrl |> Js.Nullable.toOption,
          ~correctAnswer=a##correctAnswer,
-       )
-     );
+       );
+     });
 };
