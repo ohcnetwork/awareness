@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "title": "Do you Wash your hands frequently?",
+      "description": "add description for question",
+      "hint": "",
+      "imageUrl": "",
+      "answers": [
+        {
+          "title": "Yes",
+          "description": "Good",
+          "imageUrl": "",
+          "youtubeUrl": "",
+          "correctAnswer": true
+        },
+        {
+          "title": "Nope",
+          "description": "Wash your hands frequently, Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.",
+          "imageUrl": "",
+          "youtubeUrl": "",
+          "correctAnswer": false
+        }
+      ]
+    },
+    {
+      "title": "Question 2",
+      "description": "add description for question",
+      "hint": "",
+      "imageUrl": "",
+      "answers": [
+        {
+          "title": "Yes",
+          "description": "Good",
+          "imageUrl": "",
+          "youtubeUrl": "",
+          "correctAnswer": true
+        },
+        {
+          "title": "Np",
+          "description": "Wash your hands frequently, Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.",
+          "imageUrl": "",
+          "youtubeUrl": "",
+          "correctAnswer": false
+        }
+      ]
+    },
+    {
+      "title": "Question 3",
+      "description": "add description for question",
+      "hint": "",
+      "imageUrl": "",
+      "answers": [
+        {
+          "title": "Yes",
+          "description": "Good",
+          "imageUrl": "",
+          "youtubeUrl": "",
+          "correctAnswer": true
+        },
+        {
+          "title": "Np",
+          "description": "Wash your hands frequently, Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.",
+          "imageUrl": "",
+          "youtubeUrl": "",
+          "correctAnswer": false
+        }
+      ]
+    }
+  ]
+}
