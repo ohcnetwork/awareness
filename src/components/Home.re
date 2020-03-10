@@ -2,19 +2,33 @@ let str = React.string;
 let logo: string = [%raw "require('../assets/coronasafe.png')"];
 
 let json = [%bs.raw {|require("./data.json")|}];
-let data = json |> Data.decode;
+let data = json |> Data.makeData;
 
-let showHome = () => {
+let showHome = data => {
   <div className="rounded overflow-hidden shadow-lg p-4">
-    <div className="px-6 py-4">
-      <div className="font-bold text-xl mb-2"> {"Are you safe?" |> str} </div>
-      <button
-        onClick={_ => ReasonReactRouter.push("/quiz")}
-        className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white">
-        {"Let's checkout" |> str}
-      </button>
-    </div>
+    {data
+     |> Data.quiz
+     |> Array.map(q =>
+          <div className="py-4">
+            <div className="font-bold text-xl mb-2">
+              {q |> Quiz.title |> str}
+            </div>
+            <button
+              onClick={_ => ReasonReactRouter.push(q |> Quiz.path)}
+              className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white">
+              {q |> Quiz.buttonText |> str}
+            </button>
+          </div>
+        )
+     |> React.array}
   </div>;
+};
+
+let showQuiz = (path, data) => {
+  switch (data |> Data.quiz |> Quiz.findOpt(path)) {
+  | Some(quiz) => <QuizComponent questions={quiz |> Quiz.questions} />
+  | None => showHome(data)
+  };
 };
 
 [@react.component]
@@ -30,8 +44,8 @@ let make = () => {
     </a>
     <div className="max-w-xl mt-2">
       {switch (url.path) {
-       | ["quiz"] => <QuizComponent questions={data |> Data.questions} />
-       | _ => showHome()
+       | [path] => showQuiz(path, data)
+       | _ => showHome(data)
        }}
     </div>
   </div>;

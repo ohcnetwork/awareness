@@ -20,13 +20,12 @@ let correctAnswer = t => t.correctAnswer;
 let makeArray = answers => {
   answers
   |> Array.map(a => {
-       Js.log(a##description);
        make(
          ~title=a##title,
          ~description=a##description |> Array.map(d => d),
          ~imageUrl=a##imageUrl,
          ~youtubeUrl=a##youtubeUrl |> Js.Nullable.toOption,
          ~correctAnswer=a##correctAnswer,
-       );
+       )
      });
 };

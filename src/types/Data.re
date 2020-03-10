@@ -1,12 +1,12 @@
 type t = {
-  questions: array(Question.t),
+  quiz: array(Quiz.t),
   links: array(string),
 };
 
-let make = (questions, links) => {questions, links};
+let make = (quiz, links) => {quiz, links};
 
-let decode = json => {
-  make(json##questions, json##links);
+let makeData = json => {
+  make(json##quiz |> Quiz.makeArray, json##links);
 };
 
-let questions = t => t.questions;
+let quiz = t => t.quiz;
