@@ -79,6 +79,30 @@
       ]
     },
     {
+      "title": "Are you a patient of any Cardiovascular or Chronic respiratory diseases, Diabetes, Hypertension or Cancer?",
+      "description": "add description for question",
+      "hint": "",
+      "imageUrl": "",
+      "answers": [
+        {
+          "title": "Yes, I Am",
+          "description": [
+            "The risk of fatality from Coronavirus is higher if you have any such pre-existing conditions. Take extra care if you fall into the category. Seek medical attention immediately if you experience the symptoms."
+          ],
+          "imageUrl": "",
+          "correctAnswer": true
+        },
+        {
+          "title": "No, I'm not",
+          "description": [
+            "Having no such such pre-existing conditions will increase the odds of survival, if infected"
+          ],
+          "imageUrl": "",
+          "correctAnswer": false
+        }
+      ]
+    },
+    {
       "title": "If you find yourself with fever, cough or difficulty in breathing, do you know exactly what to do in the current scenario?",
       "description": "add description for question",
       "hint": "",
