@@ -73,9 +73,16 @@ let nextQuestion = (setState, _event) => {
   );
 };
 
-let showSucess = () => {
+let showSucess = quiz => {
   <div>
-    <div> {"You are safe Now!" |> str} </div>
+    <div className="py-4 text-lg font-semibold text-green-600">
+      <div> {quiz |> Quiz.successMessage |> str} </div>
+      <a
+        href={quiz |> Quiz.readMore}
+        className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white mt-4">
+        {"Read More" |> str}
+      </a>
+    </div>
     <button
       onClick={_ => ReasonReactRouter.push("/")}
       className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white">
@@ -116,18 +123,19 @@ let showQuiz = (questions, currentQuestion, setState, state) => {
 };
 
 [@react.component]
-let make = (~questions) => {
+let make = (~quiz) => {
   let (state, setState) =
     React.useState(() =>
       {currentQuestionIndex: 0, selectedAnser: None, page: Quiz}
     );
+  let questions = quiz |> Quiz.questions;
   let currentQuestion =
     questions |> ArrayUtils.getOpt(state.currentQuestionIndex);
 
   <div className="rounded overflow-hidden shadow-lg border p-4">
     {switch (state.page) {
      | Quiz => showQuiz(questions, currentQuestion, setState, state)
-     | Complete => showSucess()
+     | Complete => showSucess(quiz)
      }}
   </div>;
 };

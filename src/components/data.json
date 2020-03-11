@@ -2,8 +2,11 @@
   "quiz": [
     {
       "title": "Are you safe?",
+      "description": "Basic protective measures against the new coronavirus",
       "path": "safe",
       "buttonText": "lets Checkout",
+      "successMessage": "You are now aware of Basic protective measures against the new coronavirus",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
       "questions": [
         {
           "title": "Do you Wash your hands frequently?",
@@ -16,6 +19,7 @@
               "description": [
                 "Good. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
               ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": true
             },
             {
@@ -24,6 +28,7 @@
                 "Wash your hands frequently, Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
               ],
               "imageUrl": "",
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": false
             }
           ]
@@ -42,7 +47,6 @@
                 "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
               ],
               "imageUrl": "",
-              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": false
             },
             {
@@ -51,7 +55,6 @@
                 "Good, Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
               ],
               "imageUrl": "",
-              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": true
             }
           ]
@@ -68,6 +71,7 @@
                 "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately."
               ],
               "imageUrl": "",
+              "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "correctAnswer": true
             },
             {
@@ -79,6 +83,7 @@
                 "Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
               ],
               "imageUrl": "",
+              "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "correctAnswer": false
             }
           ]
@@ -132,64 +137,6 @@
               ],
               "imageUrl": "",
               "correctAnswer": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Are you safe? (Testing multiple question set)",
-      "path": "safe_v2",
-      "buttonText": "lets Checkout V2",
-      "questions": [
-        {
-          "title": "My 1st question set",
-          "description": "add description for question",
-          "hint": "",
-          "imageUrl": "",
-          "answers": [
-            {
-              "title": "Yes, I wash my hands frequently;",
-              "description": [
-                "Good. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
-              ],
-              "correctAnswer": true
-            },
-            {
-              "title": "Nope",
-              "description": [
-                "Wash your hands frequently, Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
-              ],
-              "imageUrl": "",
-              "correctAnswer": false
-            }
-          ]
-        },
-        {
-          "title": "Do you often touch your eyes, nose and mouth?",
-          "description": "add description for question",
-          "hint": "Avoid touching eyes, nose and mouth",
-          "imageUrl": "",
-          "answers": [
-            {
-              "title": "Yes, I do",
-              "description": [
-                "Avoid touching eyes, nose and mouth",
-                "Why?",
-                "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
-              ],
-              "imageUrl": "",
-              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
-              "correctAnswer": false
-            },
-            {
-              "title": "No, I don't",
-              "description": [
-                "Good, Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
-              ],
-              "imageUrl": "",
-              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
-              "correctAnswer": true
             }
           ]
         }

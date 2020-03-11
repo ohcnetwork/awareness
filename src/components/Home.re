@@ -1,17 +1,20 @@
 let str = React.string;
-let logo: string = [%raw "require('../assets/coronasafe.png')"];
+let logo: string = [%raw "require('../assets/coronaSafeLogo.png')"];
 
 let json = [%bs.raw {|require("./data.json")|}];
 let data = json |> Data.makeData;
 
 let showHome = data => {
-  <div className="rounded overflow-hidden shadow-lg p-4">
+  <div className="rounded overflow-hidden">
     {data
      |> Data.quiz
      |> Array.map(q =>
-          <div className="py-4">
+          <div className="p-4 shadow-lg rounded border">
             <div className="font-bold text-xl mb-2">
               {q |> Quiz.title |> str}
+            </div>
+            <div className="text-sm mb-2">
+              {q |> Quiz.description |> str}
             </div>
             <button
               onClick={_ => ReasonReactRouter.push(q |> Quiz.path)}
@@ -26,7 +29,7 @@ let showHome = data => {
 
 let showQuiz = (path, data) => {
   switch (data |> Data.quiz |> Quiz.findOpt(path)) {
-  | Some(quiz) => <QuizComponent questions={quiz |> Quiz.questions} />
+  | Some(quiz) => <QuizComponent quiz />
   | None => showHome(data)
   };
 };
@@ -37,12 +40,12 @@ let make = () => {
   <div className="my-10 mx-2 max-w-xl mx-auto">
     <a href="./">
       <img
-        className="object-contain w-full"
+        className="object-contain w-full p-4"
         src=logo
         alt="Sunset in the mountains"
       />
     </a>
-    <div className="max-w-xl mt-2">
+    <div className="max-w-xl m-2">
       {switch (url.path) {
        | [path] => showQuiz(path, data)
        | _ => showHome(data)
