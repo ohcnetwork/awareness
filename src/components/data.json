@@ -197,6 +197,126 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Protective measures",
+      "description": "Basic protective measures against the new coronavirus",
+      "path": "protective_measures",
+      "buttonText": "lets Checkout",
+      "successMessage": "You are now aware of Basic protective measures against the new coronavirus",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Do you practice respiratory hygiene?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "title": "Yes I do",
+              "description": [
+                "Good , keeping respiratory hygiene not only keeps you from getting infected but also helps others  by setting an example to get a front step towards  to fight against  CoVID 19 "
+              ],
+              "correctAnswer": true
+            },
+            {
+              "title": "No I don't",
+              "description": [
+                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
+                "Why?",
+                "Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
+              ],
+              "imageUrl": "",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Why to follow advice given by your health care provider?",
+          "description": "add description for question",
+          "hint": "Avoid touching eyes, nose and mouth",
+          "imageUrl": "",
+          "answers": [
+            {
+              "title": "Yes, I do",
+              "description": [
+                "It is always good to get knowledge about what is happening  ,  how to get rid of this virus , and also primarily to educate others ."
+              ],
+              "imageUrl": "",
+              "correctAnswer": false
+            },
+            {
+              "title": "No, I don't",
+              "description": [
+                "Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.",
+                "Why?",
+                "Why? National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves."
+              ],
+              "imageUrl": "",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "How to put on a mask and how to dispose of it?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "title": "Yes, I do",
+              "description": [
+                "Our safety first then safe others . Mask does help in preventing the viract impact so its well and good to know how to use them and destroy them without causing further tensions ."
+              ],
+              "imageUrl": "",
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": true
+            },
+            {
+              "title": "No I don't",
+              "description": [
+                "Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.",
+                "Cover your mouth and nose with a mask and make sure there are no gaps between your face and the mask.",
+                "Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.",
+                "Replace the mask with a new one as soon as it is damp and do not re-use single-use masks.",
+                "To remove the mask: remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water."
+              ],
+              "imageUrl": "",
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "When to use a mask?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "title": "I do know well",
+              "description": [
+                "It's an important issue on when to use masks and what is the effect of it ."
+              ],
+              "imageUrl": "",
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": true
+            },
+            {
+              "title": "Not sure about the use",
+              "description": [
+                "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
+                "Wear a mask if you are coughing or sneezing.",
+                "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
+                "If you wear a mask, then you must know how to use it and dispose of it properly."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "imageUrl": "",
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
     }
   ],
 

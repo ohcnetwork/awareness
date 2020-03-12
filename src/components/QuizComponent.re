@@ -79,13 +79,13 @@ let showSucess = quiz => {
       <div> {quiz |> Quiz.successMessage |> str} </div>
       <a
         href={quiz |> Quiz.readMore}
-        className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white mt-4">
+        className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white mt-4 w-full">
         {"Read More" |> str}
       </a>
     </div>
     <button
       onClick={_ => ReasonReactRouter.push("/")}
-      className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white">
+      className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white w-full">
       {"Home" |> str}
     </button>
   </div>;
@@ -108,12 +108,12 @@ let showQuiz = (questions, currentQuestion, setState, state) => {
          isLastQuestion
            ? <button
                onClick={_ => setState(state => {...state, page: Complete})}
-               className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white">
+               className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white w-full">
                {"Complete" |> str}
              </button>
            : <button
                onClick={nextQuestion(setState)}
-               className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white">
+               className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white w-full">
                {"Next Question" |> str}
              </button>
        | None => React.null
