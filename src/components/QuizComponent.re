@@ -6,19 +6,19 @@ type page =
 
 type state = {
   page,
-  selectedAnser: option(Answer.t),
+  selectedAnswer: option(Answer.t),
   currentQuestionIndex: int,
 };
 
 let updateAnswer = (setState, answer, _event) => {
-  setState(state => {...state, selectedAnser: Some(answer)});
+  setState(state => {...state, selectedAnswer: Some(answer)});
 };
 
 let showSelectedAnswer = state => {
-  switch (state.selectedAnser) {
+  switch (state.selectedAnswer) {
   | Some(answer) =>
     <div className="mt-4">
-      <div className="font-bold text-xl mb-2">
+      <div className={"font-bold text-xl mb-2 " ++ (answer |> Answer.correctAnswer ? "text-green-500" : "text-red-700")}>
         {answer |> Answer.title |> str}
       </div>
       <div>
@@ -49,11 +49,11 @@ let showQuestion = (question, setState, state) => {
       {question
        |> Question.answers
        |> Array.map(answer => {
-            <div key={answer |> Answer.title}>
+            <div key={answer |> Answer.option}>
               <button
                 className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white btn-large mt-2 w-full"
                 onClick={updateAnswer(setState, answer)}>
-                {answer |> Answer.title |> str}
+                {answer |> Answer.option |> str}
               </button>
             </div>
           })
@@ -68,7 +68,7 @@ let nextQuestion = (setState, _event) => {
     {
       ...state,
       currentQuestionIndex: state.currentQuestionIndex + 1,
-      selectedAnser: None,
+      selectedAnswer: None,
     }
   );
 };
@@ -103,7 +103,7 @@ let showQuiz = (questions, currentQuestion, setState, state) => {
        }}
     </div>
     <div className="my-4">
-      {switch (state.selectedAnser) {
+      {switch (state.selectedAnswer) {
        | Some(_) =>
          isLastQuestion
            ? <button
@@ -126,7 +126,7 @@ let showQuiz = (questions, currentQuestion, setState, state) => {
 let make = (~quiz) => {
   let (state, setState) =
     React.useState(() =>
-      {currentQuestionIndex: 0, selectedAnser: None, page: Quiz}
+      {currentQuestionIndex: 0, selectedAnswer: None, page: Quiz}
     );
   let questions = quiz |> Quiz.questions;
   let currentQuestion =

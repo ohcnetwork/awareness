@@ -4,7 +4,7 @@
       "title": "Are you safe?",
       "description": "Basic protective measures against the new coronavirus",
       "path": "safe",
-      "buttonText": "lets Checkout",
+      "buttonText": "Take the Quiz",
       "successMessage": "You are now aware of Basic protective measures against the new coronavirus",
       "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
       "questions": [
@@ -15,17 +15,19 @@
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes, I wash my hands frequently;",
+              "option": "Yes, I wash my hands frequently;",
+              "title": "Good, wash your hands frequently",
               "description": [
-                "Good. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
+                "Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
               ],
               "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": true
             },
             {
-              "title": "Nope",
+              "option": "Nope",
+              "title": "You need to wash your hands more frequently",
               "description": [
-                "Wash your hands frequently, Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
+                "Washing your hands frequently, regularly and thoroughly with an soap and water or wash them with alcohol-based hand rub kills viruses that may be on your hands."
               ],
               "imageUrl": "",
               "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
@@ -40,19 +42,19 @@
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes, I do",
+              "option": "Yes, I do",
+              "title": "Avoid touching eyes, nose and mouth",
               "description": [
-                "Avoid touching eyes, nose and mouth",
-                "Why?",
                 "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
               ],
               "imageUrl": "",
               "correctAnswer": false
             },
             {
-              "title": "No, I don't",
+              "option": "No, I don't",
+              "title": "Good, avoid touching eyes, nose and mouth",
               "description": [
-                "Good, Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
+                "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
               ],
               "imageUrl": "",
               "correctAnswer": true
@@ -66,20 +68,20 @@
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes, I do",
+              "option": "Yes, I do",
+              "title": "Good, make sure you, and the people around you, follow good respiratory hygiene.",
               "description": [
-                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately."
+                "Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately. Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
               ],
               "imageUrl": "",
               "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "correctAnswer": true
             },
             {
-              "title": "No I don't",
+              "option": "No I don't",
+              "title": "Practice good respiratory hygiene.",
               "description": [
-                "Practice respiratory hygiene.",
-                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
-                "Why?",
+                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately.",
                 "Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
               ],
               "imageUrl": "",
@@ -95,7 +97,8 @@
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes, I Am",
+              "option": "Yes, I Am",
+              "title": "You have higher chances of complication if infected",
               "description": [
                 "The risk of fatality from Coronavirus is higher if you have any such pre-existing conditions. Take extra care if you fall into the category. Seek medical attention immediately if you experience the symptoms."
               ],
@@ -103,7 +106,8 @@
               "correctAnswer": true
             },
             {
-              "title": "No, I'm not",
+              "option": "No, I'm not",
+              "title": "You have considerably higher chances of survival",
               "description": [
                 "Having no such such pre-existing conditions will increase the odds of survival, if infected"
               ],
@@ -119,6 +123,7 @@
           "imageUrl": "",
           "answers": [
             {
+              "option": "Below 40",
               "title": "Below 40",
               "description": [
                 "The fatality from Coronavirus is around 0.2% for patients below 40. Precautions and prompt medical care can help mitigate risk which increase your odds of survival"
@@ -127,7 +132,8 @@
               "correctAnswer": true
             },
             {
-              "title": "40-50",
+              "option": "40-50",
+              "title": "Between 40 and 50",
               "description": [
                 "The fatality from Coronavirus is around 0.4% for patients in their 40s. Precautions and prompt medical care can help mitigate risk which increase your odds of survival."
               ],
@@ -135,7 +141,8 @@
               "correctAnswer": true
             },
             {
-              "title": "50-60",
+              "option": "50-60",
+              "title": "Between 50 and 60",
               "description": [
                 "The fatality from Coronavirus is around 1.3% for patients in their 50s. Precautions and prompt medical care can help mitigate risk which increase your odds of survival."
               ],
@@ -143,7 +150,8 @@
               "correctAnswer": true
             },
             {
-              "title": "60-70",
+              "option": "60-70",
+              "title": "Between 60 and 70",
               "description": [
                 "The fatality from Coronavirus is around 3.6% for patients in their 60s. Current or Pre-existing medical conditions further increases risk. Precautions and prompt medical care can help mitigate risk which increase your odds of survival."
               ],
@@ -151,20 +159,22 @@
               "correctAnswer": true
             },
             {
-              "title": "70-80",
+              "option": "70-80",
+              "title": "Between 70 and 80",
               "description": [
                 "The fatality of Coronavirus is around 8.0% for patients in their 70s. Current or Pre-existing medical conditions further increases risk. Maximum Care should be taken to prevent infection. Precautions and prompt medical care can help mitigate risk which increase your odds of survival."
               ],
               "imageUrl": "",
-              "correctAnswer": true
+              "correctAnswer": false
             },
             {
-              "title": "80+",
+              "option": "80+",
+              "title": "Greater than 80 years",
               "description": [
                 "The fatality of Coronavirus is highest at 14.8% for patients older than 80. Current or Pre-existing medical conditions further increases risk. Maximum Care should be taken to prevent infection."
               ],
               "imageUrl": "",
-              "correctAnswer": true
+              "correctAnswer": false
             }
           ]
         },
@@ -175,20 +185,20 @@
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes, I do",
+              "option": "Yes, I do",
+              "title": "Good, if you're symptomatic, seeking medical care is the first thing to do",
               "description": [
                 "If you have fever, cough and difficulty breathing, seek medical care early Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
-                "Why?",
                 "National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
               ],
               "imageUrl": "",
               "correctAnswer": true
             },
             {
-              "title": "No I don't",
+              "option": "No I don't",
+              "title": "Seek medical care if you're symptomatic",
               "description": [
                 "If you have fever, cough and difficulty breathing, seek medical care early Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
-                "Why?",
                 "National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
               ],
               "imageUrl": "",
@@ -202,7 +212,7 @@
       "title": "Protective measures",
       "description": "Basic protective measures against the new coronavirus",
       "path": "protective_measures",
-      "buttonText": "lets Checkout",
+      "buttonText": "Take the Quiz",
       "successMessage": "You are now aware of Basic protective measures against the new coronavirus",
       "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
       "questions": [
@@ -213,17 +223,18 @@
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes I do",
+              "option": "Yes I do",
+              "title": "Good, make sure you, and the people around you, follow good respiratory hygiene.",
               "description": [
                 "Good , keeping respiratory hygiene not only keeps you from getting infected but also helps others  by setting an example to get a front step towards  to fight against  CoVID 19 "
               ],
               "correctAnswer": true
             },
             {
-              "title": "No I don't",
+              "option": "No I don't",
+              "title": "Practice good respiratory hygiene.",
               "description": [
                 "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
-                "Why?",
                 "Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
               ],
               "imageUrl": "",
@@ -232,54 +243,59 @@
           ]
         },
         {
-          "title": "Why to follow advice given by your health care provider?",
+          "title": "Do you strictly follow advice given by public health officials and your health care provider?",
           "description": "add description for question",
           "hint": "Avoid touching eyes, nose and mouth",
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes, I do",
+              "option": "Yes, I do",
+              "title": "Good, Stay informed and listen to health officals",
               "description": [
-                "It is always good to get knowledge about what is happening  ,  how to get rid of this virus , and also primarily to educate others ."
-              ],
-              "imageUrl": "",
-              "correctAnswer": false
-            },
-            {
-              "title": "No, I don't",
-              "description": [
-                "Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.",
-                "Why?",
-                "Why? National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves."
+                "It is always good to get knowledge about what is happening, how to get prevent virus, and also primarily to educate others. Find help from the health department immediately if you feel you are symptomatic"
               ],
               "imageUrl": "",
               "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "You need to stay informed and listen to health officals",
+              "description": [
+                "Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.",
+                "Why? National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves."
+              ],
+              "imageUrl": "",
+              "correctAnswer": false
             }
           ]
         },
         {
-          "title": "How to put on a mask and how to dispose of it?",
+          "title": "Do you know how to put on a mask and how to dispose of it?",
           "description": "add description for question",
           "hint": "",
           "imageUrl": "",
           "answers": [
             {
-              "title": "Yes, I do",
+              "option": "Yes, I do",
+              "title": "Good, using masks properly can help prevent the virus",
               "description": [
-                "Our safety first then safe others . Mask does help in preventing the viract impact so its well and good to know how to use them and destroy them without causing further tensions ."
+                "Our safety first then safe others. Masks help in preventing the viral infection so its well and good to know how to use them and destroy them without causing further tensions. Refer the video below to learn more.",
+                "Watch the video below to learn more:"
               ],
               "imageUrl": "",
               "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
               "correctAnswer": true
             },
             {
-              "title": "No I don't",
+              "option": "No, I don't",
+              "title": "You need to know how to use a mask properly",
               "description": [
                 "Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.",
                 "Cover your mouth and nose with a mask and make sure there are no gaps between your face and the mask.",
                 "Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.",
                 "Replace the mask with a new one as soon as it is damp and do not re-use single-use masks.",
-                "To remove the mask: remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water."
+                "To remove the mask: remove it from behind (Do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.",
+                "Watch the video below to learn more:"
               ],
               "imageUrl": "",
               "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
@@ -288,27 +304,36 @@
           ]
         },
         {
-          "title": "When to use a mask?",
+          "title": "Do you know when to use a mask?",
           "description": "add description for question",
           "hint": "",
           "imageUrl": "",
           "answers": [
             {
-              "title": "I do know well",
+              "option": "I know when to use masks",
+              "title": "Good, using masks the right way will help prevent the virus",
               "description": [
-                "It's an important issue on when to use masks and what is the effect of it ."
+                "It's important to know when to use masks and educate other on the same.",
+                "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
+                "Wear a mask if you are coughing or sneezing.",
+                "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
+                "If you wear a mask, then you must know how to use it and dispose of it properly.",
+                "Watch the video below to learn more:"
               ],
               "imageUrl": "",
               "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
               "correctAnswer": true
             },
             {
-              "title": "Not sure about the use",
+              "option": "I'm not quite sure",
+              "title": "Be informed about when to use masks",
               "description": [
+                "It's important to know when to use masks and educate other on the same.",
                 "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
                 "Wear a mask if you are coughing or sneezing.",
                 "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
-                "If you wear a mask, then you must know how to use it and dispose of it properly."
+                "If you wear a mask, then you must know how to use it and dispose of it properly.",
+                "Watch the video below to learn more:"
               ],
               "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
               "imageUrl": "",

@@ -1,4 +1,5 @@
 type t = {
+  option: string,
   title: string,
   description: array(string),
   imageUrl: option(string),
@@ -7,10 +8,11 @@ type t = {
 };
 
 let make =
-    (~title, ~description, ~imageUrl=None, ~youtubeUrl=None, ~correctAnswer) => {
-  {title, description, imageUrl, youtubeUrl, correctAnswer};
+    (~option, ~title, ~description, ~imageUrl=None, ~youtubeUrl=None, ~correctAnswer) => {
+  {option, title, description, imageUrl, youtubeUrl, correctAnswer};
 };
 
+let option = t => t.option;
 let title = t => t.title;
 let description = t => t.description;
 let youtubeUrl = t => t.youtubeUrl;
@@ -21,6 +23,7 @@ let makeArray = answers => {
   answers
   |> Array.map(a => {
        make(
+         ~option=a##option,
          ~title=a##title,
          ~description=a##description |> Array.map(d => d),
          ~imageUrl=a##imageUrl,
