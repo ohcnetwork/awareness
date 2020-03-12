@@ -1,4 +1,5 @@
 let str = React.string;
+[%bs.raw {|require("./QuizComponent.css")|}];
 
 type page =
   | Quiz
@@ -17,21 +18,33 @@ let updateAnswer = (setState, answer, _event) => {
 let showSelectedAnswer = state => {
   switch (state.selectedAnswer) {
   | Some(answer) =>
-    <div className="mt-4">
-      <div className={"font-bold text-xl mb-2 " ++ (answer |> Answer.correctAnswer ? "text-green-500" : "text-red-700")}>
+    <div className="pt-8 md:pt-12">
+      <h2
+        className={
+          "font-bold mb-2 leading-tight "
+          ++ (
+            answer |> Answer.correctAnswer ? "text-green-600" : "text-red-600"
+          )
+        }>
         {answer |> Answer.title |> str}
-      </div>
-      <div>
+      </h2>
+      <div className="pt-1">
         {answer
          |> Answer.description
          |> Array.mapi((index, d) =>
-              <div key={index |> string_of_int}> {d |> str} </div>
+              <p className="text-lg" key={index |> string_of_int}>
+                {d |> str}
+              </p>
             )
          |> React.array}
       </div>
       <div className="mt-4">
         {switch (answer |> Answer.youtubeUrl) {
-         | Some(src) => <iframe className="w-full" height="315" src />
+         | Some(src) =>
+           <div
+             className="quiz-component__video-wrapper rounded-lg overflow-hidden border-2 border-gray-700 bg-gray-100">
+             <iframe className="w-full" height="auto" src />
+           </div>
          | None => React.null
          }}
       </div>
@@ -41,23 +54,26 @@ let showSelectedAnswer = state => {
 };
 
 let showQuestion = (question, setState, state) => {
-  <div className="mt-4">
-    <div className="font-bold text-xl mb-2">
-      {question |> Question.title |> str}
-    </div>
-    <div>
-      {question
-       |> Question.answers
-       |> Array.map(answer => {
-            <div key={answer |> Answer.option}>
-              <button
-                className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white btn-large mt-2 w-full"
-                onClick={updateAnswer(setState, answer)}>
-                {answer |> Answer.option |> str}
-              </button>
-            </div>
-          })
-       |> React.array}
+  <div className="pt-4 pb-6 pl-3 pr-4 md:px-0">
+    <div
+      className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-6 py-6 md:px-10">
+      <h1 className="font-bold mb-2 leading-tight">
+        {question |> Question.title |> str}
+      </h1>
+      <div>
+        {question
+         |> Question.answers
+         |> Array.map(answer => {
+              <div key={answer |> Answer.option}>
+                <button
+                  className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3 w-full"
+                  onClick={updateAnswer(setState, answer)}>
+                  {answer |> Answer.option |> str}
+                </button>
+              </div>
+            })
+         |> React.array}
+      </div>
     </div>
     <div> {showSelectedAnswer(state)} </div>
   </div>;
@@ -74,18 +90,21 @@ let nextQuestion = (setState, _event) => {
 };
 
 let showSucess = quiz => {
-  <div>
-    <div className="py-4 text-lg font-semibold text-green-600">
-      <div> {quiz |> Quiz.successMessage |> str} </div>
+  <div className="px-3 md:px-0 py-4 ">
+    <div
+      className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-6 py-6 md:px-10">
+      <h2 className="text-green-600 leading-tight">
+        {quiz |> Quiz.successMessage |> str}
+      </h2>
       <a
         href={quiz |> Quiz.readMore}
-        className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white mt-4 w-full">
+        className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3 w-full">
         {"Read More" |> str}
       </a>
     </div>
     <button
       onClick={_ => ReasonReactRouter.push("/")}
-      className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white w-full">
+      className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-10">
       {"Home" |> str}
     </button>
   </div>;
@@ -102,22 +121,24 @@ let showQuiz = (questions, currentQuestion, setState, state) => {
        | None => React.null
        }}
     </div>
-    <div className="my-4">
-      {switch (state.selectedAnswer) {
-       | Some(_) =>
-         isLastQuestion
-           ? <button
-               onClick={_ => setState(state => {...state, page: Complete})}
-               className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white w-full">
-               {"Complete" |> str}
-             </button>
-           : <button
-               onClick={nextQuestion(setState)}
-               className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white w-full">
-               {"Next Question" |> str}
-             </button>
-       | None => React.null
-       }}
+    <div className="max-w-screen-sm mx-auto">
+      <div className="px-3 md:px-0 pb-4">
+        {switch (state.selectedAnswer) {
+         | Some(_) =>
+           isLastQuestion
+             ? <button
+                 onClick={_ => setState(state => {...state, page: Complete})}
+                 className="btn border-2 border-green-600 bg-green-500 text-white hover:bg-green-600 hover:text-white focus:text-white focus:bg-green-600 button-xl w-full">
+                 {"Complete" |> str}
+               </button>
+             : <button
+                 onClick={nextQuestion(setState)}
+                 className="btn border-2 border-gray-800 bg-orange-100 hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl w-full">
+                 {"Next Question" |> str}
+               </button>
+         | None => React.null
+         }}
+      </div>
     </div>
   </div>;
 };
@@ -132,7 +153,7 @@ let make = (~quiz) => {
   let currentQuestion =
     questions |> ArrayUtils.getOpt(state.currentQuestionIndex);
 
-  <div className="rounded overflow-hidden shadow-lg border p-4">
+  <div>
     {switch (state.page) {
      | Quiz => showQuiz(questions, currentQuestion, setState, state)
      | Complete => showSucess(quiz)

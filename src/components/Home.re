@@ -1,26 +1,25 @@
 let str = React.string;
-let logo: string = [%raw "require('../assets/coronaSafeLogo.png')"];
+let logo: string = [%raw "require('../assets/coronaSafeLogo.svg')"];
 
 let json = [%bs.raw {|require("./data.json")|}];
 let data = json |> Data.makeData;
 
 let showHome = data => {
-  <div className="rounded overflow-hidden">
+  <div className="flex flex-wrap md:-mx-3 pt-4">
     {data
      |> Data.quiz
      |> Array.map(q =>
-          <div className="p-4 rounded border mt-4">
-            <div className="font-bold text-xl mb-2">
-              {q |> Quiz.title |> str}
+          <div className="w-full md:w-1/2 px-3 md:pl-3 md:pr-4 pb-6">
+            <div
+              className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6">
+              <h3> {q |> Quiz.title |> str} </h3>
+              <p className="pt-1"> {q |> Quiz.description |> str} </p>
+              <button
+                onClick={_ => ReasonReactRouter.push(q |> Quiz.path)}
+                className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3">
+                {q |> Quiz.buttonText |> str}
+              </button>
             </div>
-            <div className="text-sm mb-2">
-              {q |> Quiz.description |> str}
-            </div>
-            <button
-              onClick={_ => ReasonReactRouter.push(q |> Quiz.path)}
-              className="text-gray-700 text-base btn border hover:bg-indigo-900 hover:text-white">
-              {q |> Quiz.buttonText |> str}
-            </button>
           </div>
         )
      |> React.array}
@@ -37,15 +36,17 @@ let showQuiz = (path, data) => {
 [@react.component]
 let make = () => {
   let url = ReasonReactRouter.useUrl();
-  <div className="my-10 mx-2 max-w-xl mx-auto">
-    <a href="./">
-      <img
-        className="object-contain w-full p-4"
-        src=logo
-        alt="Sunset in the mountains"
-      />
-    </a>
-    <div className="max-w-xl m-2">
+  <div className="max-w-screen-sm mx-auto">
+    <div className="mt-4 pl-3 pr-4 md:px-0">
+      <a href="./">
+        <img
+          className="object-contain w-1/3"
+          src=logo
+          alt="Sunset in the mountains"
+        />
+      </a>
+    </div>
+    <div>
       {switch (url.path) {
        | [path] => showQuiz(path, data)
        | _ => showHome(data)
