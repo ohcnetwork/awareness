@@ -21,7 +21,7 @@ let makeArray = questions => {
        make(
          ~title=a##title,
          ~description=a##description,
-         ~imageUrl=a##imageUrl,
+         ~imageUrl=a##imageUrl |> Js.Nullable.toOption,
          ~answers=a##answers |> Answer.makeArray,
          ~hint=a##hint,
        )

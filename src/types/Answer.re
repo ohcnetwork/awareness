@@ -8,7 +8,14 @@ type t = {
 };
 
 let make =
-    (~option, ~title, ~description, ~imageUrl=None, ~youtubeUrl=None, ~correctAnswer) => {
+    (
+      ~option,
+      ~title,
+      ~description,
+      ~imageUrl=None,
+      ~youtubeUrl=None,
+      ~correctAnswer,
+    ) => {
   {option, title, description, imageUrl, youtubeUrl, correctAnswer};
 };
 
@@ -26,7 +33,7 @@ let makeArray = answers => {
          ~option=a##option,
          ~title=a##title,
          ~description=a##description |> Array.map(d => d),
-         ~imageUrl=a##imageUrl,
+         ~imageUrl=a##imageUrl |> Js.Nullable.toOption,
          ~youtubeUrl=a##youtubeUrl |> Js.Nullable.toOption,
          ~correctAnswer=a##correctAnswer,
        )
