@@ -51,8 +51,7 @@ let showSelectedAnswer = state => {
       <div className="mt-4">
         {switch (answer |> Answer.imageUrl) {
          | Some(src) =>
-           <div
-             className="rounded-lg overflow-hidden">
+           <div className="rounded-lg overflow-hidden">
              <img className="w-full" src />
            </div>
          | None => React.null
@@ -76,7 +75,7 @@ let showQuestion = (question, setState, state) => {
          |> Array.map(answer => {
               <div key={answer |> Answer.option}>
                 <button
-                  className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3 w-full"
+                  className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-lg mt-3 w-full"
                   onClick={updateAnswer(setState, answer)}>
                   {answer |> Answer.option |> str}
                 </button>
