@@ -103,7 +103,7 @@
                 "The risk of fatality from Coronavirus is higher if you have any such pre-existing conditions. Take extra care if you fall into the category. Seek medical attention immediately if you experience the symptoms."
               ],
               "imageUrl": "",
-              "correctAnswer": true
+              "correctAnswer": false
             },
             {
               "option": "No, I'm not",
@@ -112,7 +112,7 @@
                 "Having no such such pre-existing conditions will increase the odds of survival, if infected"
               ],
               "imageUrl": "",
-              "correctAnswer": false
+              "correctAnswer": true
             }
           ]
         },
