@@ -48,6 +48,16 @@ let showSelectedAnswer = state => {
          | None => React.null
          }}
       </div>
+      <div className="mt-4">
+        {switch (answer |> Answer.imageUrl) {
+         | Some(src) =>
+           <div
+             className="rounded-lg overflow-hidden">
+             <img className="w-full" src />
+           </div>
+         | None => React.null
+         }}
+      </div>
     </div>
   | None => React.null
   };

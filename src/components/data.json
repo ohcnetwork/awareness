@@ -342,6 +342,208 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Myth Busters",
+      "description": "Common myths and misconceptions regarding COVID-19",
+      "path": "myth_busters",
+      "buttonText": "Take the Quiz",
+      "successMessage": "Those were the common myths related to COVID-19",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Can weather influence corona attack",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Hot and Humid Conditions Kill the Virus!",
+              "title": "No, COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "May be in cold climate!",
+              "title": "No, There is no reason to believe that cold weather can kill the new coronavirus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-cold-snow.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "COVID-19 virus can be transmitted in ALL AREAS",
+              "title": "COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather.",
+              "description": [
+                "Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose."
+              ],
+              "imageUrl": "",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can Hot baths help prevent COVID-19?",
+          "description": "add description for question",
+          "hint": "Avoid touching eyes, nose and mouth",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Yes,Hot baths can help prevent the virus",
+              "title": "Taking a hot bath will not prevent you from catching COVID-19. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, Taking a hot bath will not prevent the virus",
+              "title": "Taking a hot bath will not prevent you from catching COVID-19. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can an UV disinfection lamp kill the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Yes, Radiations are powerful so UV disinfection lamps are useful",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, radiations are harmful ",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can spraying alcohol or chlorine all over your body kill the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Maybe, since chlorine is an effective disinfectant",
+              "title": "No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, spraying alcohol or chlorine won't help",
+              "title": "Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Have you heard about  any vaccines for this virus?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Yes, I've had heard about some",
+              "title": "No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, vaccines are not yet available",
+              "title": "Vaccines are not yet available, but reasearchers around the globe are working on it.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do rinsing your nose with saline prevent the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Yes, rinsing your nose with saline can help",
+              "title": "No. There is NO evidence that regularly rinsing the nose with saline helps prevent the virus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, rinsing your nose with does not help",
+              "title": "There is NO evidence that regularly rinsing the nose with saline helps prevent the virus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do you know if any specific age-groups are at risk?",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Yes, may be elderly ones ",
+              "title": "Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Yes, little ones because of their poor immunity ",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Not quite sure",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Is the use of antibiotics effective ? Or know any specific medicines",
+          "description": "add description for question",
+          "hint": "",
+          "imageUrl": "",
+          "answers": [
+            {
+              "option": "Yes , fever can be dealt with antibiotics then why not COVID-19",
+              "title": "No, antibiotics do not work against viruses, only bacteria.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, because antibiotics are for bacterial infections",
+              "title": "Antibiotics do not work against viruses, only bacteria.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": true
+            }
+          ]
+        }
+      ]
     }
   ],
 
