@@ -66,16 +66,18 @@ let showQuestion = (quiz, question, setState, state, totalQuestions) => {
   <div className="pt-4 pb-6 pl-3 pr-4 md:px-0">
     <div
       className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-6 py-6 md:px-10">
-      <div className="flex items-center">
-        <h1 className="font-bold mb-2 mr-2 leading-tight">
+      <div
+        className="inline-flex leading-tight text-sm text-orange-800 font-semibold bg-orange-200 py-1 px-1 rounded">
+        <p className="mr-1">
           {(state.currentQuestionIndex + 1 |> string_of_int)
-           ++ "/"
+           ++ " of "
            ++ (totalQuestions |> string_of_int)
+           ++ " -"
            |> str}
-        </h1>
-        <h3> {quiz |> Quiz.title |> str} </h3>
+        </p>
+        <p> {quiz |> Quiz.title |> str} </p>
       </div>
-      <h1 className="font-bold mb-2 leading-tight">
+      <h1 className="font-bold pt-1 pb-2 leading-tight">
         {question |> Question.title |> str}
       </h1>
       <div>
@@ -84,7 +86,7 @@ let showQuestion = (quiz, question, setState, state, totalQuestions) => {
          |> Array.map(answer => {
               <div key={answer |> Answer.option}>
                 <button
-                  className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-lg mt-3 w-full"
+                  className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3 w-full"
                   onClick={updateAnswer(setState, answer)}>
                   {answer |> Answer.option |> str}
                 </button>
@@ -107,7 +109,7 @@ let nextQuestion = (setState, _event) => {
   );
 };
 
-let showSucess = quiz => {
+let showSuccess = quiz => {
   <div className="px-3 md:px-0 py-4 ">
     <div
       className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-6 py-6 md:px-10">
@@ -116,7 +118,7 @@ let showSucess = quiz => {
       </h2>
       <a
         href={quiz |> Quiz.readMore}
-        className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3 w-full">
+        className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3">
         {"Read More" |> str}
       </a>
     </div>
@@ -175,7 +177,7 @@ let make = (~quiz) => {
   <div>
     {switch (state.page) {
      | Quiz => showQuiz(quiz, questions, setState, state)
-     | Complete => showSucess(quiz)
+     | Complete => showSuccess(quiz)
      }}
   </div>;
 };

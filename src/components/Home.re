@@ -9,7 +9,7 @@ let showHome = data => {
     {data
      |> Data.quiz
      |> Array.map(q =>
-          <div className="w-full md:w-1/2 px-3 md:pl-3 md:pr-4 pb-6">
+          <div className="w-full md:w-1/2 pl-3 pr-4 md:px-3 pb-6">
             <div
               className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6">
               <h3> {q |> Quiz.title |> str} </h3>

@@ -100,7 +100,7 @@ button:focus {
 }
 
 .btn {
-  @apply inline-flex items-center justify-center whitespace-no-wrap text-sm font-semibold py-2 px-4 rounded-md cursor-pointer;
+  @apply inline-flex items-center justify-center text-sm font-semibold py-2 px-4 rounded-md cursor-pointer;
 }
 
 .btn:focus {
@@ -177,13 +177,13 @@ button:disabled:hover, .disabled:hover, button:disabled:focus, .disabled:focus {
 }
 
 .btn-normal {
-  @apply py-1 px-4 text-sm h-8;
+  @apply py-1 px-4 text-sm;
 }
 
 .btn-large {
-  @apply py-2 px-5 text-base h-10;
+  @apply py-2 px-5 text-base;
 }
 
 .button-xl {
-  @apply py-2 px-6 text-base h-12;
+  @apply py-2 px-6 text-base;
 }
