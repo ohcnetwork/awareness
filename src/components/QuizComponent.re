@@ -118,6 +118,7 @@ let showSuccess = quiz => {
       </h2>
       <a
         href={quiz |> Quiz.readMore}
+        target="_blank"
         className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3">
         {"Read More" |> str}
       </a>
@@ -125,6 +126,17 @@ let showSuccess = quiz => {
     <button
       onClick={_ => ReasonReactRouter.push("/")}
       className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-10">
+      <span className="mr-1">
+        <svg
+          className="w-4"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M23.6 10.12L20.9 8l-8.27-6.46a1 1 0 0 0-1.24 0L3.14 8 .4 10.12a1 1 0 0 0-.18 1.41 1 1 0 0 0 .8.39 1 1 0 0 0 .61-.22l1.13-.88v9a2.84 2.84 0 0 0 2.84 2.84h4.67V12.5h3.48v10.16h4.67a2.84 2.84 0 0 0 2.84-2.84v-9l1.13.88a1 1 0 0 0 .61.22 1 1 0 0 0 .8-.39 1 1 0 0 0-.18-1.42zm-4.37 9.7a.83.83 0 0 1-.83.83h-2.66V11.5a1 1 0 0 0-1-1h-5.5a1 1 0 0 0-1 1v9.16H5.6a.83.83 0 0 1-.83-.83V9.25l3.5-2.74L12 3.6l3.6 2.8 3.63 2.83z"
+          />
+        </svg>
+      </span>
       {"Home" |> str}
     </button>
   </div>;
@@ -158,6 +170,17 @@ let showQuiz = (quiz, questions, setState, state) => {
                  onClick={nextQuestion(setState)}
                  className="btn border-2 border-gray-800 bg-orange-100 hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl w-full">
                  {"Next Question" |> str}
+                 <span className="ml-2">
+                   <svg
+                     className="w-5"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 24 24">
+                     <path
+                       fill="currentColor"
+                       d="M19.92 12.38a1 1 0 0 0 0-.76 1 1 0 0 0-.21-.33l-7-7a1 1 0 0 0-1.42 1.42l5.3 5.3H5a1 1 0 0 0 0 2h11.6l-5.3 5.3a1 1 0 1 0 1.42 1.42l7-7a1 1 0 0 0 .21-.33z"
+                     />
+                   </svg>
+                 </span>
                </button>
          | None => React.null
          }}
