@@ -36,17 +36,25 @@ let showQuiz = (path, data) => {
 [@react.component]
 let make = () => {
   let url = ReasonReactRouter.useUrl();
-  <div className="max-w-screen-sm mx-auto">
-    <div className="mt-4 pl-3 pr-4 md:px-0">
-      <a href="./">
-        <img
-          className="object-contain w-1/3"
-          src=logo
-          alt="Sunset in the mountains"
-        />
-      </a>
+  <div>
+    <div className="bg-white w-full border-b border-gray-200">
+      <div className="max-w-screen-sm mx-auto">
+        <div className="flex justify-between items-end py-4 pl-3 pr-4 md:px-0">
+          <a className="w-2/5 md:w-1/3" href="./">
+            <img
+              className="object-contain"
+              src=logo
+              title="CoronaSafe: COVID-19 Literacy Mission"
+              alt="CoronaSafe Logo: COVID-19 Literacy Mission"
+            />
+          </a>
+          <p className="font-semibold text-xs md:text-base">
+            {"COVID-19 Literacy Mission" |> str}
+          </p>
+        </div>
+      </div>
     </div>
-    <div>
+    <div className="max-w-screen-sm mx-auto">
       {switch (url.path) {
        | [path] => showQuiz(path, data)
        | _ => showHome(data)
