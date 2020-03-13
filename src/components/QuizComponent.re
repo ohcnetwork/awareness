@@ -62,16 +62,19 @@ let showSelectedAnswer = state => {
   };
 };
 
-let showQuestion = (question, setState, state, totalQuestions) => {
+let showQuestion = (quiz, question, setState, state, totalQuestions) => {
   <div className="pt-4 pb-6 pl-3 pr-4 md:px-0">
     <div
       className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-6 py-6 md:px-10">
-      <h1 className="font-bold mb-2 leading-tight">
-        {(state.currentQuestionIndex + 1 |> string_of_int)
-         ++ "/"
-         ++ (totalQuestions |> string_of_int)
-         |> str}
-      </h1>
+      <div className="flex items-center">
+        <h1 className="font-bold mb-2 mr-2 leading-tight">
+          {(state.currentQuestionIndex + 1 |> string_of_int)
+           ++ "/"
+           ++ (totalQuestions |> string_of_int)
+           |> str}
+        </h1>
+        <h3> {quiz |> Quiz.title |> str} </h3>
+      </div>
       <h1 className="font-bold mb-2 leading-tight">
         {question |> Question.title |> str}
       </h1>
@@ -125,7 +128,7 @@ let showSucess = quiz => {
   </div>;
 };
 
-let showQuiz = (questions, setState, state) => {
+let showQuiz = (quiz, questions, setState, state) => {
   let totalQuestions = questions |> Array.length;
   let currentQuestion =
     questions |> ArrayUtils.getOpt(state.currentQuestionIndex);
@@ -135,7 +138,7 @@ let showQuiz = (questions, setState, state) => {
     <div>
       {switch (currentQuestion) {
        | Some(question) =>
-         showQuestion(question, setState, state, totalQuestions)
+         showQuestion(quiz, question, setState, state, totalQuestions)
        | None => React.null
        }}
     </div>
@@ -171,7 +174,7 @@ let make = (~quiz) => {
 
   <div>
     {switch (state.page) {
-     | Quiz => showQuiz(questions, setState, state)
+     | Quiz => showQuiz(quiz, questions, setState, state)
      | Complete => showSucess(quiz)
      }}
   </div>;
