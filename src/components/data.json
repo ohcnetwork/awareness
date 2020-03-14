@@ -219,6 +219,75 @@
           ]
         },
         {
+          "title": "Are you flying home from a COVID-19 infected country? Do you know what to do?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, follow all instructions given to you at the airport and put yourself in a 14 day home quarantine.",
+              "description": [
+                "All the necessary instructions will be provided to you inside the airplane and at the airport. Please take extra care in understanding and complying with them. Do not try to hide your travel history or symptoms. This can only lead to problems down the lane. You might be subjected to a health checkup at the airport upon arrival. Please co-operate with the airport officals completely, they are working for your own safety. After getting home, please put yourself in a 14 day home quarantine and contact the local health bodies if you face any symptoms."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "Follow all instructions given to you at airports and put yourself in a 14 day home quarantine.",
+              "description": [
+                "All the necessary instructions will be provided to you inside the airplane and at the airport. Please take extra care in understanding and complying with them. Do not try to hide your travel history or symptoms. This can only lead to problems down the lane. You might be subjected to a health checkup at the airport upon arrival. Please co-operate with the airport officals completely, they are working for your own safety. After getting home, please put yourself in a 14 day home quarantine and contact the local health bodies if you face any symptoms."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Are you planning to attend or organise any event or gathering in the coming weeks?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I am",
+              "title": "Don't, avoid any mass gatherings for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Mass gatherings of people are an easy way for the virus to spread. Avoid attending any kind of events including marriages, funerals, movies and other public events for the next few weeks. If you are organisor of any such event, consider postponing the event to a later date for the safety of your attendees."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "No, I am not",
+              "title": "Good, avoid any mass gatherings for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Mass gatherings of people are an easy way for the virus to spread. Avoid attending any kind of events including marriages, funerals, movies and other public events for the next few weeks. If you are organisor of any such event, consider postponing the event to a later date for the safety of your attendees."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Are you planning to travel somewhere in the coming weeks?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I am",
+              "title": "Don't, it is best to stay wherever you are for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Avoid all kinds of trips, business or pleasure, for the next few weeks. You can come in contact with an infected person while travelling. It is best to stay wherever you already are. Travel outside only to get medical help."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "No, I am not",
+              "title": "Good, avoid any kind of travel for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Avoid all kinds of trips, business or pleasure, for the next few weeks. You can come in contact with an infected person while travelling. It is best to stay wherever you already are. Travel outside only to get medical help."
+              ],
+              "correctAnswer": true
+            }
+          ]
+      },
+        {
           "title": "Do you know when to use a mask?",
           "description": "add description for question",
           "hint": "",
