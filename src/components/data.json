@@ -17,7 +17,7 @@
               "option": "Yes, I wash my hands frequently",
               "title": "Good, wash your hands frequently",
               "description": [
-                "Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
+                "Washing your hands frequently, regularly and thoroughly with soap and water or using alcohol-based hand rub kills viruses that may be on your hands."
               ],
               "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": true
@@ -26,7 +26,7 @@
               "option": "Nope",
               "title": "You need to wash your hands more frequently",
               "description": [
-                "Washing your hands frequently, regularly and thoroughly with an soap and water or wash them with alcohol-based hand rub kills viruses that may be on your hands."
+                "Washing your hands frequently, regularly and thoroughly with soap and water or with alcohol-based hand rub kills viruses that may be on your hands."
               ],
               "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": false
@@ -40,7 +40,7 @@
           "answers": [
             {
               "option": "Yes, I do",
-              "title": "Avoid touching eyes, nose and mouth",
+              "title": "Avoid touching eyes, nose and mouth.",
               "description": [
                 "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
               ],
@@ -48,7 +48,7 @@
             },
             {
               "option": "No, I don't",
-              "title": "Good, avoid touching eyes, nose and mouth",
+              "title": "Good, avoid touching eyes, nose and mouth.",
               "description": [
                 "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
               ],
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "title": "Do you cover your mouth and nose with your bent elbow or tissue when you cough or sneeze.?",
+          "title": "Do you cover your mouth and nose with your bent elbow or tissue when you cough or sneeze?",
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -65,13 +65,13 @@
               "option": "Yes, I do",
               "title": "Good, make sure you, and the people around you, follow good respiratory hygiene.",
               "description": [
-                "Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately. Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
+                "Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately. Droplets spread virus. By following good respiratory hygiene you can protect the people around you from viruses such as cold, flu and COVID-19."
               ],
               "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "correctAnswer": true
             },
             {
-              "option": "No I don't",
+              "option": "No, I don't",
               "title": "Practice good respiratory hygiene.",
               "description": [
                 "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately.",
@@ -83,23 +83,23 @@
           ]
         },
         {
-          "title": "Are you a patient of any Cardiovascular or Chronic respiratory diseases, Diabetes, Hypertension or Cancer?",
+          "title": "Are you a patient of any Cardiovascular or Chronic respiratory disease, Diabetes, Hypertension or Cancer?",
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
               "option": "Yes, I Am",
-              "title": "You have higher chances of complication if infected",
+              "title": "Take care, you have a higher chance of complication if infected",
               "description": [
-                "The risk of fatality from Coronavirus is higher if you have any such pre-existing conditions. Take extra care if you fall into the category. Seek medical attention immediately if you experience the symptoms."
+                "The risk of fatality from Coronavirus is higher if you have any such pre-existing conditions. Take extra care if you fall into this category. Seek medical attention immediately if you experience the symptoms."
               ],
               "correctAnswer": false
             },
             {
               "option": "No, I'm not",
-              "title": "You have considerably higher chances of survival",
+              "title": "You have considerably lesser chance of complications",
               "description": [
-                "Having no such such pre-existing conditions will increase the odds of survival, if infected"
+                "Having no such such pre-existing conditions will decrease the odds of complications, if infected"
               ],
               "correctAnswer": true
             }
@@ -112,18 +112,18 @@
           "answers": [
             {
               "option": "Yes, I do",
-              "title": "Good, if you're symptomatic, seeking medical care is the first thing to do",
+              "title": "Good, if you're symptomatic, seeking medical care is the first thing to do.",
               "description": [
-                "If you have fever, cough and difficulty breathing, seek medical care early Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
+                "If you have fever, cough and difficulty breathing, seek medical care as soon as possible. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
                 "National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
               ],
               "correctAnswer": true
             },
             {
-              "option": "No I don't",
-              "title": "Seek medical care if you're symptomatic",
+              "option": "No, I don't",
+              "title": "Seek urgent medical care if you're symptomatic.",
               "description": [
-                "If you have fever, cough and difficulty breathing, seek medical care early Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
+                "If you have fever, cough and difficulty breathing, seek medical care as soon as possible. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
                 "National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
               ],
               "correctAnswer": false
@@ -146,15 +146,15 @@
           "hint": "",
           "answers": [
             {
-              "option": "Yes I do",
+              "option": "Yes, I do",
               "title": "Good, make sure you, and the people around you, follow good respiratory hygiene.",
               "description": [
-                "Good , keeping respiratory hygiene not only keeps you from getting infected but also helps others  by setting an example to get a front step towards  to fight against  CoVID 19 "
+                "Good, keeping respiratory hygiene not only keeps you from getting infected but also helps others  by setting an example to get a front step towards  to fight against  CoVID 19 "
               ],
               "correctAnswer": true
             },
             {
-              "option": "No I don't",
+              "option": "No, I don't",
               "title": "Practice good respiratory hygiene.",
               "description": [
                 "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
@@ -173,7 +173,7 @@
               "option": "Yes, I do",
               "title": "Good, Stay informed and listen to health officals",
               "description": [
-                "It is always good to get knowledge about what is happening, how to get prevent virus, and also primarily to educate others. Find help from the health department immediately if you feel you are symptomatic"
+                "It is always good to get proper knowledge about what is happening, how to prevent virus infection, and also primarily to educate others. Find help from the health department immediately if you feel you are symptomatic"
               ],
               "correctAnswer": true
             },
@@ -197,8 +197,7 @@
               "option": "Yes, I do",
               "title": "Good, using masks properly can help prevent the virus",
               "description": [
-                "Our safety first then safe others. Masks help in preventing the viral infection so its well and good to know how to use them and destroy them without causing further tensions. Refer the video below to learn more.",
-                "Watch the video below to learn more:"
+                "Masks help in preventing the viral infection so important to know how to use them and destroy them properly. Refer the video below to learn more:"
               ],
               "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
               "correctAnswer": true
@@ -208,7 +207,7 @@
               "title": "You need to know how to use a mask properly",
               "description": [
                 "Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.",
-                "Cover your mouth and nose with a mask and make sure there are no gaps between your face and the mask.",
+                "Cover your mouth and nose with the mask and make sure there are no gaps between your face and the mask.",
                 "Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.",
                 "Replace the mask with a new one as soon as it is damp and do not re-use single-use masks.",
                 "To remove the mask: remove it from behind (Do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.",
@@ -228,7 +227,7 @@
               "option": "I know when to use masks",
               "title": "Good, using masks the right way will help prevent the virus",
               "description": [
-                "It's important to know when to use masks and educate other on the same.",
+                "It is important to know when to use masks and educate others on the same.",
                 "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
                 "Wear a mask if you are coughing or sneezing.",
                 "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
@@ -242,7 +241,7 @@
               "option": "I'm not quite sure",
               "title": "Be informed about when to use masks",
               "description": [
-                "It's important to know when to use masks and educate other on the same.",
+                "It's important to know when to use masks and educate others on the same.",
                 "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
                 "Wear a mask if you are coughing or sneezing.",
                 "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
@@ -265,12 +264,12 @@
       "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
       "questions": [
         {
-          "title": "Can weather influence corona attack",
+          "title": "Can weather influence the corona outbreak?",
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Hot and Humid Conditions Kill the Virus!",
+              "option": "Hot and Humid Conditions kill the Virus!",
               "title": "No, COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.png",
@@ -299,7 +298,7 @@
           "hint": "Avoid touching eyes, nose and mouth",
           "answers": [
             {
-              "option": "Yes,Hot baths can help prevent the virus",
+              "option": "Yes, Hot baths can help prevent the virus",
               "title": "Taking a hot bath will not prevent you from catching COVID-19. ",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
@@ -320,15 +319,15 @@
           "hint": "",
           "answers": [
             {
-              "option": "Yes, Radiations are powerful so UV disinfection lamps are useful",
-              "title": "UV lamps should not be used to sterilize hands or other areas of skin",
+              "option": "Yes, radiations are powerful so UV disinfection lamps are useful",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
               "correctAnswer": false
             },
             {
               "option": "No, radiations are harmful ",
-              "title": "UV lamps should not be used to sterilize hands or other areas of skin",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
               "correctAnswer": true
@@ -341,7 +340,7 @@
           "hint": "",
           "answers": [
             {
-              "option": "Maybe, since chlorine is an effective disinfectant",
+              "option": "Maybe, since chlorine is an effective disinfectant.",
               "title": "No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
@@ -357,7 +356,7 @@
           ]
         },
         {
-          "title": "Have you heard about  any vaccines for this virus?",
+          "title": "Have you heard about any vaccines for this virus?",
           "description": "add description for question",
           "hint": "",
           "answers": [
@@ -370,7 +369,7 @@
             },
             {
               "option": "No, vaccines are not yet available",
-              "title": "Vaccines are not yet available, but reasearchers around the globe are working on it.",
+              "title": "Vaccines are not yet available, but researchers around the globe are working on it.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
               "correctAnswer": true
@@ -390,7 +389,7 @@
               "correctAnswer": false
             },
             {
-              "option": "No, rinsing your nose with does not help",
+              "option": "No, rinsing your nose with saline does not help",
               "title": "There is NO evidence that regularly rinsing the nose with saline helps prevent the virus.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
@@ -405,7 +404,7 @@
           "answers": [
             {
               "option": "Yes, may be elderly ones ",
-              "title": "Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
               "correctAnswer": true
@@ -427,12 +426,12 @@
           ]
         },
         {
-          "title": "Is the use of antibiotics effective ? Or know any specific medicines",
+          "title": "Is the use of antibiotics effective? Or know any specific medicines",
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Yes , fever can be dealt with antibiotics then why not COVID-19",
+              "option": "Yes, fever can be dealt with antibiotics then why not COVID-19",
               "title": "No, antibiotics do not work against viruses, only bacteria.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
