@@ -4,10 +4,9 @@ let logo: string = [%raw "require('../assets/coronaSafeLogo.svg')"];
 let json = [%bs.raw {|require("./data.json")|}];
 let data = json |> Data.makeData;
 
-let showHome = data => {
+let showHome = quiz => {
   <div className="flex flex-wrap md:-mx-3 pt-4">
-    {data
-     |> Data.quiz
+    {quiz
      |> Array.map(q =>
           <div className="w-full md:w-1/2 pl-3 pr-4 md:px-3 pb-6">
             <div
@@ -26,16 +25,17 @@ let showHome = data => {
   </div>;
 };
 
-let showQuiz = (path, data) => {
-  switch (data |> Data.quiz |> Quiz.findOpt(path)) {
+let showQuiz = (path, quiz) => {
+  switch (quiz |> Quiz.findOpt(path)) {
   | Some(quiz) => <QuizComponent quiz />
-  | None => showHome(data)
+  | None => showHome(quiz |> Quiz.default)
   };
 };
 
 [@react.component]
 let make = () => {
   let url = ReasonReactRouter.useUrl();
+  let quiz = data |> Data.quiz;
   <div>
     <div className="bg-white w-full border-b border-gray-200">
       <div className="max-w-screen-sm mx-auto">
@@ -54,10 +54,24 @@ let make = () => {
         </div>
       </div>
     </div>
-    <div className="max-w-screen-sm mx-auto">
+    <div className="max-w-screen-sm mx-auto mt-2">
+      <div>
+        <a
+          onClick={_ => ReasonReactRouter.push("english")}
+          className="text-lg font-semibold px-2 mr-4 cursor-pointer">
+          {"English" |> str}
+        </a>
+        <a
+          onClick={_ => ReasonReactRouter.push("malayalam")}
+          className="text-lg font-semibold px-2 mr-4 cursor-pointer">
+          {"Malayalam" |> str}
+        </a>
+      </div>
       {switch (url.path) {
-       | [path] => showQuiz(path, data)
-       | _ => showHome(data)
+       | ["malayalam"] => showHome(quiz |> Quiz.filterByLang("malayalam"))
+       | ["english"] => showHome(quiz |> Quiz.filterByLang("english"))
+       | [path] => showQuiz(path, quiz)
+       | _ => showHome(quiz |> Quiz.default)
        }}
     </div>
   </div>;

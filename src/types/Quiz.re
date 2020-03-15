@@ -6,6 +6,7 @@ type t = {
   readMore: string,
   successMessage: string,
   description: string,
+  language: string,
 };
 
 let make =
@@ -17,8 +18,18 @@ let make =
       ~readMore,
       ~successMessage,
       ~description,
+      ~language,
     ) => {
-  {title, path, questions, buttonText, successMessage, readMore, description};
+  {
+    title,
+    path,
+    questions,
+    buttonText,
+    successMessage,
+    readMore,
+    description,
+    language,
+  };
 };
 
 let title = t => t.title;
@@ -28,6 +39,7 @@ let buttonText = t => t.buttonText;
 let readMore = t => t.readMore;
 let successMessage = t => t.successMessage;
 let description = t => t.description;
+let language = t => t.language;
 
 let makeArray = json => {
   json
@@ -40,6 +52,7 @@ let makeArray = json => {
          ~readMore=a##readMore,
          ~successMessage=a##successMessage,
          ~description=a##description,
+         ~language=a##language,
        )
      );
 };
@@ -48,4 +61,12 @@ let findOpt = (path, quiz) => {
   let filteredQuizArray = quiz |> Js.Array.filter(q => q.path == path);
   filteredQuizArray |> ArrayUtils.isEmpty
     ? None : filteredQuizArray |> ArrayUtils.getOpt(0);
+};
+
+let filterByLang = (language, quiz) => {
+  quiz |> Js.Array.filter(q => q.language == language);
+};
+
+let default = quiz => {
+  quiz |> filterByLang("english");
 };
