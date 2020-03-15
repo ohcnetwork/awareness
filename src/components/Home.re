@@ -48,9 +48,9 @@ let make = () => {
               alt="CoronaSafe Logo: COVID-19 Literacy Mission"
             />
           </a>
-          <p className="font-semibold text-xs md:text-base">
+          <a href="https://www.coronasafe.in/" className="font-semibold text-xs md:text-base">
             {"COVID-19 Literacy Mission" |> str}
-          </p>
+          </a>
         </div>
       </div>
     </div>
