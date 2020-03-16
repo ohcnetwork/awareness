@@ -77,7 +77,7 @@ let showQuestion = (quiz, question, setState, state, totalQuestions) => {
         </p>
         <p> {quiz |> Quiz.title |> str} </p>
       </div>
-      <h1 className="font-bold pt-1 pb-2 leading-tight">
+      <h1 className="font-bold pt-1 pb-2 leading-tight break-words">
         {question |> Question.title |> str}
       </h1>
       <div>
