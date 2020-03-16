@@ -68,7 +68,9 @@
               "description": [
                 "Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately. Droplets spread virus. By following good respiratory hygiene you can protect the people around you from viruses such as cold, flu and COVID-19."
               ],
-              "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+             // "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.png",
+
               "correctAnswer": true
             },
             {
