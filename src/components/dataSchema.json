@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AwarnessQuizz",
+  "type": "object",
+  "required": [ "quiz" ],
+  "properties": {
+    "quiz": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/quizzObject"
+      }
+    }
+  }, 
+  "definitions": {
+    "quizzObject": {
+      "type": "object",
+      "required": [ "title", "description", "path", "buttonText", "successMessage", "readMore", "questions" ],
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "buttonText": {
+          "type": "string"
+        },
+        "successMessage": {
+          "type": "string"
+        },
+        "readMore": {
+          "type": "string"
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/questionObject"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "answerObject": {
+      "type": "object",
+      "required": [ "option", "title", "description", "correctAnswer" ],
+      "properties": {
+        "option": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "youtubeUrl": {
+          "type": "string"
+        },
+        "correctAnswer": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "questionObject": {
+      "type": "object",
+      "required": [ "title", "description", "hint", "answers" ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "hint": {
+          "type": "string"
+        },
+        "answers": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/definitions/answerObject"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

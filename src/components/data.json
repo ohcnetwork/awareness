@@ -1,4 +1,5 @@
 {
+  "$schema": "./dataSchema.json",
   "quiz": [
     {
       "language": "english",
@@ -519,6 +520,65 @@
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
               "correctAnswer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "Français",
+      "title": "Ëtes-vous en sécurité ?",
+      "description": "Gestes barrière contre le nouveau coronavirus",
+      "path": "safe_fr",
+      "buttonText": "Passer le quiz",
+      "successMessage": "Vous êtes maintenant au courante des gestes barrière contre le nouveau coronavirus",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Vous lavez-vous les mains fréquemment ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, je me lave les mains fréquemment",
+              "title": "Très bien, il faut vous laver les mains fréquemment",
+              "description": [
+                "Vous laver les mains régulièrement et minutieusement avec du savon et de l'eau, ou en utilisant un gel hydroalcoolique tue les virus qui pourraient se trouver sur vos mains."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": true
+            },
+            {
+              "option": "Non",
+              "title": "Il faut vous laver les mains plus fréquemment",
+              "description": [
+                "Vous laver les mains régulièrement et minutieusement avec du savon et de l'eau, ou en utilisant un gel hydroalcoolique tue les virus qui pourraient se trouver sur vos mains."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Touchez-vous souvent vos yeux, votre nez et votre bouche ?",
+          "description": "",
+          "hint": "Evitez de toucher vos yeux, nez et bouche",
+          "answers": [
+            {
+              "option": "Oui",
+              "title": "Evitez de toucher vos yeux, nez et bouche.",
+              "description": [
+                "Les mains touchent beaucoup de surfaces et peuvent facilement entrer en contact avec le virus. Une fois contaminées, vos mains peuvent transférer le virus à vos yeux, nez ou bouche. À partir de là, le virus peut entrer dans votre corps et vous rendre malade."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, j'évite.",
+              "title": "Très bien, évitez de toucher vos yeux, nez et bouche.",
+              "description": [
+                "Les mains touchent beaucoup de surfaces et peuvent facilement entrer en contact avec le virus. Une fois contaminées, vos mains peuvent transférer le virus à vos yeux, nez ou bouche. À partir de là, le virus peut entrer dans votre corps et vous rendre malade."
+              ],
+              "correctAnswer": false
             }
           ]
         }
