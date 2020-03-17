@@ -66,10 +66,16 @@ let make = () => {
           className="text-lg font-semibold px-2 mr-4 cursor-pointer">
           {"Malayalam" |> str}
         </a>
+        <a
+          onClick={_ => ReasonReactRouter.push("french")}
+          className="text-lg font-semibold px-2 mr-4 cursor-pointer">
+          {{j|Français|j} |> str}
+        </a>
       </div>
       {switch (url.path) {
        | ["malayalam"] => showHome(quiz |> Quiz.filterByLang("malayalam"))
        | ["english"] => showHome(quiz |> Quiz.filterByLang("english"))
+       | ["french"] => showHome(quiz |> Quiz.filterByLang("french"))
        | [path] => showQuiz(path, quiz)
        | _ => showHome(quiz |> Quiz.default)
        }}
