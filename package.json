@@ -4,7 +4,11 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "7.0.1",
+    "chai": "^4.2.0",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^7.1.0",
     "parcel-bundler": "^1.12.4",
+    "strip-json-comments": "^3.0.1",
     "tailwindcss": "^1.1.4"
   },
   "dependencies": {
@@ -13,7 +17,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "echo \"Error: run tests from root\" && exit 1",
+    "test": "mocha tests",
     "re:build": "bsb -make-world -clean-world",
     "re:watch": "bsb -make-world -clean-world -w"
   }

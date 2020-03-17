@@ -1,4 +1,5 @@
 {
+  "$schema": "./dataSchema.json",
   "quiz": [
     {
       "language": "english",
@@ -515,6 +516,535 @@
             },
             {
               "option": "No, because antibiotics are for bacterial infections",
+              "title": "Antibiotics do not work against viruses, only bacteria.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "french",
+      "title": "Êtes-vous en sécurité ?",
+      "description": "Informations basiques sur la protection contre le virus",
+      "path": "safe_fr",
+      "buttonText": "Passer le quiz",
+      "successMessage": "Vous êtes maintenant au courante des gestes barrière contre le nouveau coronavirus",
+      "readMore": "https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Vous lavez-vous les mains fréquemment ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, je me lave les mains fréquemment",
+              "title": "Très bien, il faut vous laver les mains fréquemment",
+              "description": [
+                "Vous laver les mains régulièrement et minutieusement avec du savon et de l'eau, ou en utilisant un gel hydroalcoolique tue les virus qui pourraient se trouver sur vos mains."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": true
+            },
+            {
+              "option": "Non",
+              "title": "Il faut vous laver les mains plus fréquemment",
+              "description": [
+                "Vous laver les mains régulièrement et minutieusement avec du savon et de l'eau, ou en utilisant un gel hydroalcoolique tue les virus qui pourraient se trouver sur vos mains."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Touchez-vous souvent vos yeux, votre nez et votre bouche ?",
+          "description": "",
+          "hint": "Evitez de toucher vos yeux, nez et bouche",
+          "answers": [
+            {
+              "option": "Oui",
+              "title": "Evitez de toucher vos yeux, nez et bouche.",
+              "description": [
+                "Les mains touchent beaucoup de surfaces et peuvent facilement entrer en contact avec le virus. Une fois contaminées, vos mains peuvent transférer le virus à vos yeux, nez ou bouche. À partir de là, le virus peut entrer dans votre corps et vous rendre malade."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, j'évite.",
+              "title": "Très bien, évitez de toucher vos yeux, nez et bouche.",
+              "description": [
+                "Les mains touchent beaucoup de surfaces et peuvent facilement entrer en contact avec le virus. Une fois contaminées, vos mains peuvent transférer le virus à vos yeux, nez ou bouche. À partir de là, le virus peut entrer dans votre corps et vous rendre malade."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Vous couvrez-vous la bouche et le nez avec votre coude ou un mouchoir quand vous éternuez ou toussez ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui",
+              "title": "Très bien, faites attention quand il y a du monde autour de vous à avoir une bonne étiquette d'hygiène respiratoire et de toux",
+              "description": [
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+              "correctAnswer": true
+            },
+            {
+              "option": "Non",
+              "title": "Vous devez pratiquer une bonne étiquette d'hygiène respiratoire et de toux.",
+              "description": [
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Souffrez-vous d'une maladie cardiovasculaire, d'une malaide chronique respiratoire, de diabète, d'hypertension ou de cancer ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, je fais partie de cette catégorie",
+              "title": "Faites attention, et prenez soin de vous. Vous avez des chances plus élevées de complication en cas d'infection",
+              "description": [
+                "Le risque de mort lié au Coronavirus est plus élevé si vous souffrez déja de telles maladies. Faites d'autant plus attention à vous si vous faites partie de cette catégorie. Si vous avez des symptomes, contactez immédiatement un service de santé."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Non",
+              "title": "Vous avez considérablement moins de chance d'avoir des complications en cas d'infection.",
+              "description": [
+                "Ne souffrir d'aucune maladie pré-existante décroit vos chances de complications en cas d'infection."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Savez-vous exactement quoi faire si vous avez de la fièvre, toussez ou ressentez des difficultés à respirer ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, je sais",
+              "title": "Très bien, si vous avez des symptomes, contacter un service de santé est la première chose à faire",
+              "description": [
+                "Si vous avez de la fièvre, toussez ou avez des difficultés respiratoires, contacter un médecin le plus vite possible et appelez en avance. Restez à la maison si vous ne vous sentez pas bien. Suivez les instructions transmises par les autorités locales de santé.",
+                "Les autorités locales et nationales de santé auront les informations les plus à jours à propos de la situation de l'endroit où vous vous trouvez. Appeler en avance permettra à votre médecin ou spécialiste de santé de vous redirigez au plus vite, si besoin, vers la bonne infrastructure. Cela vous protègeras aussi et aideras à limiter là propagation du virus ou d'autes infections.",
+                "En France, consultez https://www.gouvernement.fr/info-coronavirus et n'appelez le 15 qu'en cas de symptomes graves, sinon appelez votre médecin traitant."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "Non, je ne sais pas",
+              "title": "Faites appel de toute urgence à un médecin si vous avez les symptomes",
+              "description": [
+                "Si vous avez de la fièvre, toussez ou avez des difficultés respiratoires, contacter un médecin le plus vite possible et appelez en avance. Restez à la maison si vous ne vous sentez pas bien. Suivez les instructions transmises par les autorités locales de santé.",
+                "Les autorités locales et nationales de santé auront les informations les plus à jours à propos de la situation de l'endroit où vous vous trouvez. Appeler en avance permettra à votre médecin ou spécialiste de santé de vous redirigez au plus vite, si besoin, vers la bonne infrastructure. Cela vous protègeras aussi et aideras à limiter là propagation du virus ou d'autes infections.",
+                "En France, consultez https://www.gouvernement.fr/info-coronavirus et n'appelez le 15 qu'en cas de symptomes graves, sinon appelez votre médecin traitant."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "french",
+      "title": "Gestes barrière",
+      "description": "Gestes barrière de protection contre le nouveau coronavirus",
+      "path": "protective_measures_fr",
+      "buttonText": "Passer le Quiz",
+      "successMessage": "Vous connaissez maintenant les gestes barrière de protection contre le nouveau coronavirus",
+      "readMore": "https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Avez-vous une bonne étiquette d'hyigiène respiratoire et de la toux ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui",
+              "title": "Très bien, soyez sûrs que vous, et les personnes qui vous entourent, avez un bonne étiquette d'hygiène respiratoire et de la toux",
+              "description": [
+                "Suivre une bonne étiquette d'hygiène respiratoire et de la toux vous protège non seulement de vous faire infecter, mais aide aussi les autres en montrant le bon exemple pour faire un pas en avant dans la guerre contre le COVID-19."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "Non",
+              "title": "Il faut absolument que vous pratiquiez une bonne étiquette d'hyigiène respiratoire et de la toux",
+              "description": [
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Suivez-vous strictement les conseils donnés par les autorités de santé officielles ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, je les suis scrupuleusement.",
+              "title": "Très bien, restez informés et écoutez les autorités de santé.",
+              "description": [
+                "Il est toujours bon d'avoir une bonne connaissance des événements qui se déroulent, des moyens de prévention contre la propagation du virus, mais aussi d'éduquer les autres. Allez chercher de l'aide auprès des autorités de santé immédiatement si vous ressentez les symptomes"
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "Non, je ne les suis pas parfaitement",
+              "title": "Vous devez rester informer et écouter les autorités de santé",
+              "description": [
+                "Restez informé des derniers dévelopement à propos du COVID-19. Suivez les conseils des autorités nationales et locales en matières de santé sur comment vous protéger et protéger les autres du COVID-19.",
+                "Pourquoi ? Les autorités nationales et locales auront les informations les plus à jour pour savoir si le COVID-19 se propage dans votre zone. Ce sont les personnes les mieux placées pour savoir ce que les personnes dans votre région doivent faire pour se protéger."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Savez vous comment mettre un masque et comment le jeter ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, je sais",
+              "title": "Très bien, un bon usage des masques peut aider à ralentir la propagation du virus",
+              "description": [
+                "N'UTILISEZ UN MASQUE QUE SI VOUS AVEZ DES SYMPTOMES OU SI VOUS ÊTES UN PROFESSIONEL DE SANTÉ! Il est important que les personnes qui en ont vraiment besoin aient accès aux masques",
+                "Bien utilisés, les masques peuvent aider à ralentir la propagation du virus, il est donc important de les utiliser et de bien les jeter après utilisation. Regarder la vidéo ci-dessous pour apprendre:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": true
+            },
+            {
+              "option": "Non, je ne sais pas",
+              "title": "Vous devez apprendre à utiliser les masques",
+              "description": [
+                "N'UTILISEZ UN MASQUE QUE SI VOUS AVEZ DES SYMPTOMES OU SI VOUS ÊTES UN PROFESSIONEL DE SANTÉ! Il est important que les personnes qui en ont vraiment besoin aient accès aux masques",
+                "Avant de mettre un masque, lavez-vous les mains avec du savon ou un gel hydroalcoolique.",
+                "Couvrez-vous la bouche et le nez avec le masque et faites attention à ne laisser aucun vide entre votre visage et le masque.",
+                "Évitez de toucher le masque pendant son utilisation; si vous le faites, lavez-vous les mains avec du savon ou un gel hydroalcoolique.",
+                "Remplacez le masque dès que celui-ci devient humide et ne ré-utilisez pas un masque à usage unique.",
+                "Pour enlever le masque: enlevez-le par l'arrière (ne touchez pas l'avant du masque); jetez le immédiatement dans une poubelle fermée; lavez-vous les main avec du savon ou un gel hydroalcoolique.",
+                "Regardez la vidéo ci-dessous pour en apprendre plus:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Si vous prenez l'avion pour rentrez chez vous depuis un pays infecté par le COVID-19, savez-vous quoi faire ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, je sais",
+              "title": "Très bien, suivez les instructions qui vous sont données à l'aeroport et restez en quarantaine pendant 14 jours à la maison.",
+              "description": [
+                "Toutes les instructions necessaires vous seront données dans l'avion et à l'aeroport. Faites-y très attention, comprenez-les et appliquez-les. N'essayez pas de cacher votre historique de voyages ou vos symptomes, cela ne peut que créer des problèmes. Il est possible que vous soyez assujetis à un bilan de santé à votre arrivée. Il est important que vous coopériez avec les autorités de l'aéroport, ils travaillent à leurs propres risques pour votre sûreté. une fois arrivé à la maison, restez en quarantaine pendant 14 jours à la maison, et contactez les autorités locales de santé si vous ressentez des symptomes."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, je ne sais pas",
+              "title": "Suivez toutes les instructions qui vous sont données à l'aéroport et dans l'avion, et placez-vous en quarantaine pendant 14 jours chez vous.",
+              "description": [
+                "Toutes les instructions necessaires vous seront données dans l'avion et à l'aeroport. Faites-y très attention, comprenez-les et appliquez-les. N'essayez pas de cacher votre historique de voyages ou vos symptomes, cela ne peut que créer des problèmes. Il est possible que vous soyez assujetis à un bilan de santé à votre arrivée. Il est important que vous coopériez avec les autorités de l'aéroport, ils travaillent à leurs propres risques pour votre sûreté. une fois arrivé à la maison, restez en quarantaine pendant 14 jours à la maison, et contactez les autorités locales de santé si vous ressentez des symptomes."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Prévoyez-vous d'organiser ou de participer à un événment ou un rassemblement dans les semaines à venir ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, c'est prévu.",
+              "title": "Ne le faites surtout pas! Évitez les rassemblements pendant les prochaines semaines pour éviter le propager le COVID-19.",
+              "description": [
+                "Les rassemblement de masse sont un moyen très simple de propager le virus. Évitez ce genre d'évenement, y compris les marriages, les enterrements, le cinéma ou tout autre type d'événement publique pendant les prochaines semaines. Si vous êtes l'organisateur d'un tel événement, essayez de repousser l'événement à plus tard pour votre propre santé et celles des participants"
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, ce n'est pas prévu.",
+              "title": "Bien, évitez les rassemblements de masse pour les prochaines semaines afin d'éviter la propagation du COVID-19",
+              "description": [
+                "Les rassemblement de masse sont un moyen très simple de propager le virus. Évitez ce genre d'évenement, y compris les marriages, les enterrements, le cinéma ou tout autre type d'événement publique pendant les prochaines semaines. Si vous êtes l'organisateur d'un tel événement, essayez de repousser l'événement à plus tard pour votre propre santé et celles des participants"
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Prévoyez-vous de voyager quelque part dans les prochaines semaines ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, c'est prévu.",
+              "title": "Ne le faites pas, il est mieux de rester chez vous pendant les prochaines semaines pour empêcher la propagation du COVID-19",
+              "description": [
+                "Évitez tous les types de voyages, que ce soit pour le travail ou pour les vavcances, pendant les prochaines semaines. Vous pouvez-entrer en contact avec quelqu'un d'infecté pendant que vous voyagez. Il est mieux de rester où vous êtes. Ne voyagez que pour aller voir un médecin"
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, ce n'est pas prévu", 
+              "title": "Très bien, évitez tout type de voyage pendant les prochaines semaines pour éviter de propager le COVID-19",
+              "description": [
+                "Évitez tous les types de voyages, que ce soit pour le travail ou pour les vavcances, pendant les prochaines semaines. Vous pouvez-entrer en contact avec quelqu'un d'infecté pendant que vous voyagez. Il est mieux de rester où vous êtes. Ne voyagez que pour aller voir un médecin"
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Savez-vous quand utiliser un masque ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Je sais quand utiliser un masque",
+              "title": "Très bien, utiliser un masque peut aider à ralentir la propagation du virus.",
+              "description": [
+                "Il est important de savoir quand utiliser un masque et d'éduquer les autres à savoir aussi.",
+                "N'utilisez un masque que si vous êtes un professionel de santé, ou si vous ressentez des symptomes.",
+                "En particulier, utilisez un masques si vous toussez ou éternuez.",
+                "Les masques ne sont utiles que si vous vous lavez les main fréquemment avec du savon et de l'eau, ou du gel hydroalcoolique",
+                "Si vous utilisez un masque, vous devez apprendre à l'utiliser correctement et à le jeter correctement",
+                "Regardez la vidéo ci-dessous pour en apprendre plus:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": true
+            },
+            {
+              "option": "Je ne suis pas sûr de savoir",
+              "title": "Il faut apprendre quand il faut utiliser un masque",
+              "description": [
+                "Il est important de savoir quand utiliser un masque et d'éduquer les autres à savoir aussi.",
+                "N'utilisez un masque que si vous êtes un professionel de santé, ou si vous ressentez des symptomes.",
+                "En particulier, utilisez un masques si vous toussez ou éternuez.",
+                "Les masques ne sont utiles que si vous vous lavez les main fréquemment avec du savon et de l'eau, ou du gel hydroalcoolique",
+                "Si vous utilisez un masque, vous devez apprendre à l'utiliser correctement et à le jeter correctement",
+                "Regardez la vidéo ci-dessous pour en apprendre plus:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "french",
+      "title": "Les idées reçues",
+      "description": "Préjugées et fausses idées reçues",
+      "path": "myth_buster_fr",
+      "buttonText": "Passer le Quiz",
+      "successMessage": "Vous connaissez maintenant les fausses idées reçues sur le COVID-19",
+      "readMore": "https://www.who.int/fr/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "La météo peut-elle influencer l'épidémie de coronavirus ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Les conditions météorologiques chaudes et humides tuent le virues",
+              "title": "Non, le COVID-19 peut être transmis dans TOUTES LES ZONES, y compris les zones chaudes et humides",
+              "description": [
+                "Quel que soit le climas, adoptez les gestes barrière conseillés dans l'endroit où vous vivez, et ne voyagez pas dans une zone infectée. Le meilleur moyen de se protéger contre le COVID-19 est de se laver les mains fréquemment avec de l'eau et du savon, ou du gel hydroalcoolique. En faisant cela, vous éliminez le virus qui peut se trouver sur vos main et éviter une infection qui peut arriver quand vous vous touchez les yeux, la bouche ou le nez"
+              ],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Peut-être dans les climas froids",
+              "title": "Non, il n'y a aucune raison de penser que le froid tue le coronavirus",
+              "description": [
+                "Quel que soit le climas, adoptez les gestes barrière conseillés dans l'endroit où vous vivez, et ne voyagez pas dans une zone infectée. Le meilleur moyen de se protéger contre le COVID-19 est de se laver les mains fréquemment avec de l'eau et du savon, ou du gel hydroalcoolique. En faisant cela, vous éliminez le virus qui peut se trouver sur vos main et éviter une infection qui peut arriver quand vous vous touchez les yeux, la bouche ou le nez"
+              ],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-cold-snow.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Le virus COVID-19 peut être transmis dans TOUTES LES ZONES",
+              "title": "Le virus COVID-19 peut être transmis dans TOUTES LES ZONES, y compirs dans les zones chaudes et humides et dans les zones froides",
+              "description": [
+                "Quel que soit le climas, adoptez les gestes barrière conseillés dans l'endroit où vous vivez, et ne voyagez pas dans une zone infectée. Le meilleur moyen de se protéger contre le COVID-19 est de se laver les mains fréquemment avec de l'eau et du savon, ou du gel hydroalcoolique. En faisant cela, vous éliminez le virus qui peut se trouver sur vos main et éviter une infection qui peut arriver quand vous vous touchez les yeux, la bouche ou le nez"
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Les bains chauds peuvent-ils protéger du COVID-19 ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, les bains chauds peuvent protéger du virus",
+              "title": "Prendre un bain chaud ne protège en aucun cas d'attraper le coronavirus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, prendre un bain chaud ne protège pas d'attraper le virus",
+              "title": "Prendre un bain chaud ne protège en aucun cas d'attraper le coronavirus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Les lampes à UV germicides sont-elles utiles pour tuer le virus ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, les radiations sont puissantes donc les lampes à UV sont utiles",
+              "title": "Les lampes à UV ne devraient surtout pas être utilisées pour stériliser vos mains ou tout autre partie de votre peau.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, les radiations sont dangereuses",
+              "title": "Les lampes à UV ne devraient surtout pas être utilisées pour stériliser vos mains ou tout autre partie de votre peau.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Pulveriser de l'alcool ou du chlore sur votre coprs peut-il aider à tuer le virus ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Peut-être, puisque le chlore est un désinfectant puissant",
+              "title": "Non, pulveriser de l'alcool ou du chlore sur votre corps ne tuera aucun virus qui est déja rentré dans votre corps",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, pulveriser de l'alcool ou du chlore n'aide pas",
+              "title": "Non, pulveriser de l'alcool ou du chlore sur votre corps ne tuera aucun virus qui est déja rentré dans votre corps",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Avez-vous entendu parler d'un vaccin contre le virus ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, j'en ai entendu parler",
+              "title": "Non, il n'y en a aucune. Les vaccins contre la pneumonie, tel que les vaccins antipneumococcique ou le vaccin contre l'Hæmophilus (Hib) ne confèrent aucune protection contre le nouveau coronavirus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, aucun vaccin n'est disponible pour l'instant",
+              "title": "Les vaccins ne sont pas disponibles pour l'instant, mais les chercheurs du monde entier travaillent dessus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Est-ce que se laver le nez avec de l'eau salée protège du virus ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, se laver le nez avec de l'eau salée peut aider",
+              "title": "Non, il n'y a AUCUNE preuve que se laver régulièrement le nez avec de l'eau salée permet de protéger du virus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, se laver le nez avec de l'eau salée n'aide pas",
+              "title": "Il n'y a AUCUNE preuve que se laver régulièrement le nez avec de l'eau salée permet de protéger du virus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Savez-vous si il y a une tranche d'age particulièrement à risque ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, peut-être les personnes agées",
+              "title": "Les personnes de tous ages peuvent être infectées par le nouveau coronavirus (COVID-19). Cependant, les personnes agées et les personnes souffrant de maladies chroniques semblent plus vulnérables",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Oui, les enfants à cause de leurs faibles défenses immunitaires",
+              "title": "Les personnes de tous ages peuvent être infectées par le nouveau coronavirus (COVID-19). Cependant, les personnes agées et les personnes souffrant de maladies chroniques semblent plus vulnérables",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Je ne sais pas",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "L'utilisation d'antibotiques, ou d'autres médicaments est-elle efficace ?",
+          "description": "",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Oui, on peut lutter contre la fièvre avec des antibiotiques, donc aussi contre le COVID-19",
+              "title": "Non, les antibiotiques ne marchent pas contre les virus, seulement contre les bactéries",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Non, parce que les antibiotiques ne marchent que contre les infection bactériennes",
+
               "title": "Antibiotics do not work against viruses, only bacteria.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
