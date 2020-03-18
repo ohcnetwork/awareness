@@ -1,4 +1,5 @@
 let str = React.string;
+[%bs.raw {|require("./Home.css")|}];
 let logo: string = [%raw "require('../assets/coronaSafeLogo.svg')"];
 
 let json = [%bs.raw {|require("./data.json")|}];
@@ -10,14 +11,20 @@ let showHome = quiz => {
      |> Array.map(q =>
           <div className="w-full md:w-1/2 pl-3 pr-4 md:px-3 pb-6">
             <div
-              className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6">
-              <h3> {q |> Quiz.title |> str} </h3>
-              <p className="pt-1"> {q |> Quiz.description |> str} </p>
-              <button
-                onClick={_ => ReasonReactRouter.push(q |> Quiz.path)}
-                className="btn border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-3">
-                {q |> Quiz.buttonText |> str}
-              </button>
+              className="home__container flex flex-col justify-between h-auto md:h-full border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6">
+              <div>
+                <h3 className="leading-tight"> {q |> Quiz.title |> str} </h3>
+                <p className="pt-1 leading-snug">
+                  {q |> Quiz.description |> str}
+                </p>
+              </div>
+              <div>
+                <button
+                  onClick={_ => ReasonReactRouter.push(q |> Quiz.path)}
+                  className="btn w-auto border-2 border-gray-800 bg-white hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl mt-4 md:mt-5">
+                  {q |> Quiz.buttonText |> str}
+                </button>
+              </div>
             </div>
           </div>
         )
@@ -48,27 +55,29 @@ let make = () => {
               alt="CoronaSafe Logo: COVID-19 Literacy Mission"
             />
           </a>
-          <a href="https://www.coronasafe.in/" className="font-semibold text-xs md:text-base">
+          <a
+            href="https://www.coronasafe.in/"
+            className="font-semibold text-xs md:text-base">
             {"COVID-19 Literacy Mission" |> str}
           </a>
         </div>
       </div>
     </div>
-    <div className="max-w-screen-sm mx-auto mt-2">
-      <div>
+    <div className="max-w-screen-sm mx-auto mt-4">
+      <div className="text-gray-700 text-sm select-none px-3 md:px-0">
         <a
           onClick={_ => ReasonReactRouter.push("english")}
-          className="text-lg font-semibold px-2 mr-4 cursor-pointer">
+          className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
           {"English" |> str}
         </a>
         <a
           onClick={_ => ReasonReactRouter.push("malayalam")}
-          className="text-lg font-semibold px-2 mr-4 cursor-pointer">
-          {"Malayalam" |> str}
+          className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
+          {{j|മലയാളം|j} |> str}
         </a>
         <a
           onClick={_ => ReasonReactRouter.push("french")}
-          className="text-lg font-semibold px-2 mr-4 cursor-pointer">
+          className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
           {{j|Français|j} |> str}
         </a>
       </div>

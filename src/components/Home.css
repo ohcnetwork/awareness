@@ -1,0 +1,28 @@
+.home__container {
+  position: relative;
+}
+
+.home__container::before {
+  @apply bg-gray-800 absolute rounded-lg;
+  content: "";
+  bottom: -8px;
+  right: -8px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+@screen md {
+  .home__container::before {
+    bottom: -12px;
+    right: -12px;
+  }
+}
+
+.home-langualge-filter__link {
+  @apply font-semibold pt-2 py-1 px-1 border-b-2 border-transparent mr-4 cursor-pointer tracking-wide;
+}
+
+.home-langualge-filter__link--active {
+  @apply text-gray-900 border-gray-900;
+}
