@@ -69,9 +69,8 @@
               "description": [
                 "Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately. Droplets spread virus. By following good respiratory hygiene you can protect the people around you from viruses such as cold, flu and COVID-19."
               ],
-             //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
-          
 
               "correctAnswer": true
             },
@@ -594,7 +593,6 @@
                 "کھانسی یا چھینک آنے پر اپنے منہ اور ناک کو اپنی مڑی ہوئی کہنی یا ٹشو سے ڈھانپیں ، پھر استعمال شدہ ٹشو کو فورا. ہی ضائع کردیں۔ بوندوں سے وائرس پھیلتا ہے۔ اچھی سانس کی حفظان صحت پر عمل پیرا ہوکر آپ اپنے آس پاس کے لوگوں کو سردی ، فلو اور COVID-19 جیسے وائرس سے محفوظ کرسکتے ہیں۔"
               ],
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
-          
 
               "correctAnswer": true
             },
@@ -1113,7 +1111,8 @@
               "option": "Oui",
               "title": "Très bien, faites attention quand il y a du monde autour de vous à avoir une bonne étiquette d'hygiène respiratoire et de toux",
               "description": [
-                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.",
+                "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
               ],
               "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
@@ -1123,7 +1122,8 @@
               "option": "Non",
               "title": "Vous devez pratiquer une bonne étiquette d'hygiène respiratoire et de toux.",
               "description": [
-                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.",
+                "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
               ],
               "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
@@ -1209,7 +1209,8 @@
               "option": "Non",
               "title": "Il faut absolument que vous pratiquiez une bonne étiquette d'hyigiène respiratoire et de la toux",
               "description": [
-                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.",
+                "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
               ],
               "correctAnswer": false
             }
@@ -1331,7 +1332,7 @@
               "correctAnswer": false
             },
             {
-              "option": "Non, ce n'est pas prévu", 
+              "option": "Non, ce n'est pas prévu",
               "title": "Très bien, évitez tout type de voyage pendant les prochaines semaines pour éviter de propager le COVID-19",
               "description": [
                 "Évitez tous les types de voyages, que ce soit pour le travail ou pour les vavcances, pendant les prochaines semaines. Vous pouvez-entrer en contact avec quelqu'un d'infecté pendant que vous voyagez. Il est mieux de rester où vous êtes. Ne voyagez que pour aller voir un médecin"
@@ -2091,6 +2092,528 @@
             {
               "option": "ഇല്ല, കാരണം ആൻറിബയോട്ടിക്കുകൾ ബാക്ടീരിയ അണുബാധയ്ക്കുള്ളതാണ്",
               "title": "ആൻറിബയോട്ടിക്കുകൾ വൈറസുകൾക്കെതിരെ പ്രവർത്തിക്കുന്നില്ല, ബാക്ടീരിയകൾക്കെതിരെ മാത്രം.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "kannada",
+      "title": "ನೀವು ಸುರಕ್ಷಿತವಾಗಿದ್ದೀರಾ?",
+      "description": "ಹೊಸ ಕೊರೊನಾವೈರಸ್ ವಿರುದ್ಧ ಮೂಲ ರಕ್ಷಣಾ ಕ್ರಮಗಳು",
+      "path": "safe_ka",
+      "buttonText": "ರಸಪ್ರಶ್ನೆ ತೆಗೆದುಕೊಳ್ಳಿ",
+      "successMessage": "ಹೊಸ ಕರೋನವೈರಸ್ ವಿರುದ್ಧದ ಮೂಲಭೂತ ರಕ್ಷಣಾತ್ಮಕ ಕ್ರಮಗಳ ಬಗ್ಗೆ ನಿಮಗೆ ಈಗ ತಿಳಿದಿದೆ",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "ನೀವು ಆಗಾಗ್ಗೆ ಕೈ ತೊಳೆಯುತ್ತೀರಾ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು, ನಾನು ಆಗಾಗ್ಗೆ ಕೈ ತೊಳೆಯುತ್ತೇನೆ",
+              "title": "ಒಳ್ಳೆಯದು, ಆಗಾಗ್ಗೆ ನಿಮ್ಮ ಕೈಗಳನ್ನು ತೊಳೆಯಿರಿ",
+              "description": [
+                "ನಿಮ್ಮ ಕೈಗಳನ್ನು ಆಗಾಗ್ಗೆ, ನಿಯಮಿತವಾಗಿ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಸೋಪ್ ಮತ್ತು ನೀರಿನಿಂದ ತೊಳೆಯುವುದು ಅಥವಾ ಆಲ್ಕೋಹಾಲ್ ಆಧಾರಿತ ಹ್ಯಾಂಡ್ ರಬ್ ಅನ್ನು ಬಳಸುವುದು ನಿಮ್ಮ ಕೈಯಲ್ಲಿರುವ ವೈರಸ್‌ಗಳನ್ನು ಕೊಲ್ಲುತ್ತದೆ."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": true
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ನೀವು ಹೆಚ್ಚಾಗಿ ನಿಮ್ಮ ಕೈಗಳನ್ನು ತೊಳೆಯಬೇಕು",
+              "description": [
+                "ನಿಮ್ಮ ಕೈಗಳನ್ನು ಆಗಾಗ್ಗೆ, ನಿಯಮಿತವಾಗಿ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಸೋಪ್ ಮತ್ತು ನೀರಿನಿಂದ ಅಥವಾ ಆಲ್ಕೋಹಾಲ್ ಆಧಾರಿತ ಹ್ಯಾಂಡ್ ರಬ್ನಿಂದ ತೊಳೆಯುವುದು ನಿಮ್ಮ ಕೈಯಲ್ಲಿರುವ ವೈರಸ್‌ಗಳನ್ನು ಕೊಲ್ಲುತ್ತದೆ."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "ನೀವು ಆಗಾಗ್ಗೆ ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಮುಟ್ಟುತ್ತೀರಾ?",
+          "description": "add description for question",
+          "hint": "ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ಪರ್ಶಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ",
+          "answers": [
+            {
+              "option": "ಹೌದು, ನಾನು ಮಾಡುತ್ತೇನೆ",
+              "title": "ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ಪರ್ಶಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ",
+              "description": [
+                "ಕೈಗಳು ಅನೇಕ ಮೇಲ್ಮೈಗಳನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತವೆ ಮತ್ತು ವೈರಸ್‌ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಕಲುಷಿತಗೊಂಡ ನಂತರ ಕೈಗಳು ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಅಥವಾ ಬಾಯಿಗೆ ವೈರಸ್‌ನ್ನು ವರ್ಗಾಯಿಸಬಹುದು. ಅಲ್ಲಿಂದ ವೈರಸ್ ನಿಮ್ಮ ದೇಹವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮನ್ನು ರೋಗಿಗಳನ್ನಾಗಿ ಮಾಡಬಹುದು."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "ಇಲ್ಲ, ನಾನು ಮಾಡುವುದಿಲ್ಲ",
+              "title": "ಒಳ್ಳೆಯದು, ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಮುಟ್ಟುವುದನ್ನು ತಪ್ಪಿಸಿ.",
+              "description": [
+                "ಕೈಗಳು ಅನೇಕ ಮೇಲ್ಮೈಗಳನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತವೆ ಮತ್ತು ವೈರಸ್‌ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಕಲುಷಿತಗೊಂಡ ನಂತರ ಕೈಗಳು ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಅಥವಾ ಬಾಯಿಗೆ ವೈರಸ್‌ನ್ನು ವರ್ಗಾಯಿಸಬಹುದು. ಅಲ್ಲಿಂದ ವೈರಸ್ ನಿಮ್ಮ ದೇಹವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮನ್ನು ರೋಗಿಗಳನ್ನಾಗಿ ಮಾಡಬಹುದು."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚುತ್ತೀರಾ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು, ನಾನು ಮಾಡುತ್ತೇನೆ",
+              "title": "ಒಳ್ಳೆಯದು, ನೀವು ಮತ್ತು ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಜನರು ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುತ್ತಾರೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
+              "description": [
+                "ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ನಿಮ್ಮ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚಿ, ನಂತರ ಬಳಸಿದ ಅಂಗಾಂಶವನ್ನು ತಕ್ಷಣ ವಿಲೇವಾರಿ ಮಾಡಿ. ಹನಿಗಳು ವೈರಸ್ ಹರಡುತ್ತವೆ. ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಸುತ್ತಲಿನ ಜನರನ್ನು ಶೀತ, ಜ್ವರ ಮತ್ತು ವೈರಸ್‌ಗಳಿಂದ ರಕ್ಷಿಸಬಹುದು. COVID-19. "
+              ],
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+
+              "correctAnswer": true
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ.",
+              "description": [
+                "ನೀವು ಮತ್ತು ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಜನರು ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುತ್ತೀರಾ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಇದರರ್ಥ ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ನಿಮ್ಮ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚಿಕೊಳ್ಳಿ, ನಂತರ ಬಳಸಿದ ಅಂಗಾಂಶವನ್ನು ತಕ್ಷಣ ವಿಲೇವಾರಿ ಮಾಡಿ.",
+                "ಹನಿಗಳು ವೈರಸ್ ಹರಡುತ್ತವೆ. ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಸುತ್ತಲಿನ ಜನರನ್ನು ಶೀತ, ಜ್ವರ ಮತ್ತು COVID-19 ನಂತಹ ವೈರಸ್‌ಗಳಿಂದ ರಕ್ಷಿಸುತ್ತೀರಿ."              ],
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "ನೀವು ಯಾವುದೇ ಹೃದಯರಕ್ತನಾಳದ ಅಥವಾ ದೀರ್ಘಕಾಲದ ಉಸಿರಾಟದ ಕಾಯಿಲೆ, ಮಧುಮೇಹ, ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ಅಥವಾ ಕ್ಯಾನ್ಸರ್ ರೋಗಿಯಾಗಿದ್ದೀರಾ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು",
+              "title": "ಕಾಳಜಿ ವಹಿಸಿ, ಸೋಂಕಿಗೆ ಒಳಗಾಗಿದ್ದರೆ ನಿಮಗೆ ಹೆಚ್ಚಿನ ತೊಂದರೆ ಉಂಟಾಗುತ್ತದೆ",
+              "description": [
+                "ನೀವು ಮೊದಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಕೊರೊನಾವೈರಸ್ನಿಂದ ಮಾರಣಾಂತಿಕ ಅಪಾಯ ಹೆಚ್ಚು. ನೀವು ಈ ವರ್ಗಕ್ಕೆ ಸೇರಿದರೆ ಹೆಚ್ಚಿನ ಕಾಳಜಿ ವಹಿಸಿ. ನೀವು ರೋಗಲಕ್ಷಣಗಳನ್ನು ಅನುಭವಿಸಿದರೆ ತಕ್ಷಣ ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ನಿಮಗೆ ತೊಡಕುಗಳ ಸಾಧ್ಯತೆ ಕಡಿಮೆ",
+              "description": [
+                "ಅಂತಹ ಮೊದಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಗಳು ಇಲ್ಲದಿರುವುದು ಸೋಂಕಿಗೆ ಒಳಗಾಗಿದ್ದರೆ ತೊಡಕುಗಳ ವಿಚಿತ್ರತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ"
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ಜ್ವರ, ಕೆಮ್ಮು ಅಥವಾ ಉಸಿರಾಟದ ತೊಂದರೆಗಳಿಂದ ನೀವು ನಿಮ್ಮನ್ನು ಕಂಡುಕೊಂಡರೆ, ಏನು ಮಾಡಬೇಕೆಂದು ನಿಮಗೆ ತಿಳಿದಿದೆಯೇ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು",
+              "title": "ಒಳ್ಳೆಯದು, ನೀವು ರೋಗಲಕ್ಷಣವನ್ನು ಹೊಂದಿದ್ದರೆ, ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡುವುದು ಮೊದಲನೆಯದು.",
+              "description": [
+                "ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ಆದಷ್ಟು ಬೇಗ ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡಿ. ನಿಮಗೆ ಅನಾರೋಗ್ಯ ಅನಿಸಿದರೆ ಮನೆಯಲ್ಲೇ ಇರಿ. ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ ಮತ್ತು ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡಿ. ನಿಮ್ಮ ನಿರ್ದೇಶನಗಳನ್ನು ಅನುಸರಿಸಿ ಸ್ಥಳೀಯ ಆರೋಗ್ಯ ಪ್ರಾಧಿಕಾರ. ",
+                "ರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಸ್ಥಳೀಯ ಅಧಿಕಾರಿಗಳು ನಿಮ್ಮ ಪ್ರದೇಶದ ಪರಿಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಹೆಚ್ಚು ನವೀಕೃತ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಆರೋಗ್ಯ ರಕ್ಷಣೆ ನೀಡುಗರು ನಿಮ್ಮನ್ನು ಸರಿಯಾದ ಆರೋಗ್ಯ ಸೌಲಭ್ಯಕ್ಕೆ ತ್ವರಿತವಾಗಿ ನಿರ್ದೇಶಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ. ಇದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುತ್ತದೆ ಮತ್ತು ವೈರಸ್‌ಗಳ ಹರಡುವಿಕೆಯನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಇತರ ಸೋಂಕುಗಳು. "
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ನೀವು ರೋಗಲಕ್ಷಣವನ್ನು ಹೊಂದಿದ್ದರೆ ತುರ್ತು ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಪಡೆಯಿರಿ.",
+              "description": [
+                "ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ಆದಷ್ಟು ಬೇಗ ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡಿ. ನಿಮಗೆ ಅನಾರೋಗ್ಯ ಅನಿಸಿದರೆ ಮನೆಯಲ್ಲೇ ಇರಿ. ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ ಮತ್ತು ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡಿ. ನಿಮ್ಮ ನಿರ್ದೇಶನಗಳನ್ನು ಅನುಸರಿಸಿ ಸ್ಥಳೀಯ ಆರೋಗ್ಯ ಪ್ರಾಧಿಕಾರ. ",
+                "ರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಸ್ಥಳೀಯ ಅಧಿಕಾರಿಗಳು ನಿಮ್ಮ ಪ್ರದೇಶದ ಪರಿಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಹೆಚ್ಚು ನವೀಕೃತ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಆರೋಗ್ಯ ರಕ್ಷಣೆ ನೀಡುಗರು ನಿಮ್ಮನ್ನು ಸರಿಯಾದ ಆರೋಗ್ಯ ಸೌಲಭ್ಯಕ್ಕೆ ತ್ವರಿತವಾಗಿ ನಿರ್ದೇಶಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ. ಇದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುತ್ತದೆ ಮತ್ತು ವೈರಸ್‌ಗಳ ಹರಡುವಿಕೆಯನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಇತರ ಸೋಂಕುಗಳು. "
+              ],
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "title": "Protective measures",
+      "description": "Basic protective measures against the new coronavirus",
+      "path": "protective_measures",
+      "buttonText": "Take the Quiz",
+      "successMessage": "You are now aware of Basic protective measures against the new coronavirus",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Do you practice respiratory hygiene?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, make sure you, and the people around you, follow good respiratory hygiene.",
+              "description": [
+                "Good, keeping respiratory hygiene not only keeps you from getting infected but also helps others  by setting an example to get a front step towards  to fight against  CoVID 19 "
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "Practice good respiratory hygiene.",
+              "description": [
+                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
+                "Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Do you strictly follow advice given by public health officials and your health care provider?",
+          "description": "add description for question",
+          "hint": "Avoid touching eyes, nose and mouth",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, Stay informed and listen to health officals",
+              "description": [
+                "It is always good to get proper knowledge about what is happening, how to prevent virus infection, and also primarily to educate others. Find help from the health department immediately if you feel you are symptomatic"
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "You need to stay informed and listen to health officals",
+              "description": [
+                "Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.",
+                "Why? National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Do you know how to put on a mask and how to dispose of it?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, using masks properly can help prevent the virus",
+              "description": [
+                "Masks help in preventing the viral infection so important to know how to use them and destroy them properly. Refer the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "You need to know how to use a mask properly",
+              "description": [
+                "Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.",
+                "Cover your mouth and nose with the mask and make sure there are no gaps between your face and the mask.",
+                "Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.",
+                "Replace the mask with a new one as soon as it is damp and do not re-use single-use masks.",
+                "To remove the mask: remove it from behind (Do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.",
+                "Watch the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Are you flying home from a COVID-19 infected country? Do you know what to do?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, follow all instructions given to you at the airport and put yourself in a 14 day home quarantine.",
+              "description": [
+                "All the necessary instructions will be provided to you inside the airplane and at the airport. Please take extra care in understanding and complying with them. Do not try to hide your travel history or symptoms. This can only lead to problems down the lane. You might be subjected to a health checkup at the airport upon arrival. Please co-operate with the airport officals completely, they are working for your own safety. After getting home, please put yourself in a 14 day home quarantine and contact the local health bodies if you face any symptoms."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "Follow all instructions given to you at airports and put yourself in a 14 day home quarantine.",
+              "description": [
+                "All the necessary instructions will be provided to you inside the airplane and at the airport. Please take extra care in understanding and complying with them. Do not try to hide your travel history or symptoms. This can only lead to problems down the lane. You might be subjected to a health checkup at the airport upon arrival. Please co-operate with the airport officals completely, they are working for your own safety. After getting home, please put yourself in a 14 day home quarantine and contact the local health bodies if you face any symptoms."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Are you planning to attend or organise any event or gathering in the coming weeks?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I am",
+              "title": "Don't! Avoid all gatherings for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Mass gatherings of people are an easy way for the virus to spread. Avoid attending any kind of events including marriages, funerals, movies and other public events for the next few weeks. If you are organisor of any such event, consider postponing the event to a later date for the safety of your attendees."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "No, I am not",
+              "title": "Good, avoid any mass gatherings for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Mass gatherings of people are an easy way for the virus to spread. Avoid attending any kind of events including marriages, funerals, movies and other public events for the next few weeks. If you are organisor of any such event, consider postponing the event to a later date for the safety of your attendees."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Are you planning to travel somewhere in the coming weeks?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I am",
+              "title": "Don't, it is best to stay wherever you are for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Avoid all kinds of trips, business or pleasure, for the next few weeks. You can come in contact with an infected person while travelling. It is best to stay wherever you already are. Travel outside only to get medical help."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "No, I am not",
+              "title": "Good, avoid any kind of travel for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Avoid all kinds of trips, business or pleasure, for the next few weeks. You can come in contact with an infected person while travelling. It is best to stay wherever you already are. Travel outside only to get medical help."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do you know when to use a mask?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "I know when to use masks",
+              "title": "Good, using masks the right way will help prevent the virus",
+              "description": [
+                "It is important to know when to use masks and educate others on the same.",
+                "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
+                "Wear a mask if you are coughing or sneezing.",
+                "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
+                "If you wear a mask, then you must know how to use it and dispose of it properly.",
+                "Watch the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": true
+            },
+            {
+              "option": "I'm not quite sure",
+              "title": "Be informed about when to use masks",
+              "description": [
+                "It's important to know when to use masks and educate others on the same.",
+                "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
+                "Wear a mask if you are coughing or sneezing.",
+                "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
+                "If you wear a mask, then you must know how to use it and dispose of it properly.",
+                "Watch the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "title": "Myth Busters",
+      "description": "Common myths and misconceptions regarding COVID-19",
+      "path": "myth_busters",
+      "buttonText": "Take the Quiz",
+      "successMessage": "Those were the common myths related to COVID-19",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Can weather influence the corona outbreak?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Hot and Humid Conditions kill the Virus!",
+              "title": "No, COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "May be in cold climate!",
+              "title": "No, There is no reason to believe that cold weather can kill the new coronavirus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-cold-snow.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "COVID-19 virus can be transmitted in ALL AREAS",
+              "title": "COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather.",
+              "description": [
+                "Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can Hot baths help prevent COVID-19?",
+          "description": "add description for question",
+          "hint": "Avoid touching eyes, nose and mouth",
+          "answers": [
+            {
+              "option": "Yes, Hot baths can help prevent the virus",
+              "title": "Taking a hot bath will not prevent you from catching COVID-19. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, Taking a hot bath will not prevent the virus",
+              "title": "Taking a hot bath will not prevent you from catching COVID-19. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can an UV disinfection lamp kill the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, radiations are powerful so UV disinfection lamps are useful",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, radiations are harmful ",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can spraying alcohol or chlorine all over your body kill the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Maybe, since chlorine is an effective disinfectant.",
+              "title": "No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, spraying alcohol or chlorine won't help",
+              "title": "Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Have you heard about any vaccines for this virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I've had heard about some",
+              "title": "No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, vaccines are not yet available",
+              "title": "Vaccines are not yet available, but researchers around the globe are working on it.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do rinsing your nose with saline prevent the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, rinsing your nose with saline can help",
+              "title": "No. There is NO evidence that regularly rinsing the nose with saline helps prevent the virus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, rinsing your nose with saline does not help",
+              "title": "There is NO evidence that regularly rinsing the nose with saline helps prevent the virus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do you know if any specific age-groups are at risk?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, may be elderly ones ",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Yes, little ones because of their poor immunity ",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Not quite sure",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Is the use of antibiotics effective? Or know any specific medicines",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, fever can be dealt with antibiotics then why not COVID-19",
+              "title": "No, antibiotics do not work against viruses, only bacteria.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, because antibiotics are for bacterial infections",
+              "title": "Antibiotics do not work against viruses, only bacteria.",
               "description": [],
               "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
               "correctAnswer": true
