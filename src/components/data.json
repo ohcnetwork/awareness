@@ -69,9 +69,8 @@
               "description": [
                 "Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately. Droplets spread virus. By following good respiratory hygiene you can protect the people around you from viruses such as cold, flu and COVID-19."
               ],
-             //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
-          
 
               "correctAnswer": true
             },
@@ -594,7 +593,6 @@
                 "کھانسی یا چھینک آنے پر اپنے منہ اور ناک کو اپنی مڑی ہوئی کہنی یا ٹشو سے ڈھانپیں ، پھر استعمال شدہ ٹشو کو فورا. ہی ضائع کردیں۔ بوندوں سے وائرس پھیلتا ہے۔ اچھی سانس کی حفظان صحت پر عمل پیرا ہوکر آپ اپنے آس پاس کے لوگوں کو سردی ، فلو اور COVID-19 جیسے وائرس سے محفوظ کرسکتے ہیں۔"
               ],
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
-          
 
               "correctAnswer": true
             },
@@ -1113,7 +1111,8 @@
               "option": "Oui",
               "title": "Très bien, faites attention quand il y a du monde autour de vous à avoir une bonne étiquette d'hygiène respiratoire et de toux",
               "description": [
-                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.",
+                "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
               ],
               "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
@@ -1123,7 +1122,8 @@
               "option": "Non",
               "title": "Vous devez pratiquer une bonne étiquette d'hygiène respiratoire et de toux.",
               "description": [
-                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.",
+                "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
               ],
               "youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
@@ -1209,7 +1209,8 @@
               "option": "Non",
               "title": "Il faut absolument que vous pratiquiez une bonne étiquette d'hyigiène respiratoire et de la toux",
               "description": [
-                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.", "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
+                "Couvrez vous la bouche et le nez avec l'angle du coude ou un mouchoir quand vous éternuez ou toussez, puis jetez immédiatement le mouchoir usagé.",
+                "Le virus est transmis par projection au contact d'un porteur du virus. En suivant une bonne étiquette d'hygiène respiratoire et de toux, vous protegez les personnes autour de vous des virus tel que la grippe ou le COVID-19"
               ],
               "correctAnswer": false
             }
@@ -1331,7 +1332,7 @@
               "correctAnswer": false
             },
             {
-              "option": "Non, ce n'est pas prévu", 
+              "option": "Non, ce n'est pas prévu",
               "title": "Très bien, évitez tout type de voyage pendant les prochaines semaines pour éviter de propager le COVID-19",
               "description": [
                 "Évitez tous les types de voyages, que ce soit pour le travail ou pour les vavcances, pendant les prochaines semaines. Vous pouvez-entrer en contact avec quelqu'un d'infecté pendant que vous voyagez. Il est mieux de rester où vous êtes. Ne voyagez que pour aller voir un médecin"
@@ -2098,7 +2099,143 @@
           ]
         }
       ]
+    },
+    {
+      "language": "kannada",
+      "title": "ನೀವು ಸುರಕ್ಷಿತವಾಗಿದ್ದೀರಾ?",
+      "description": "ಹೊಸ ಕೊರೊನಾವೈರಸ್ ವಿರುದ್ಧ ಮೂಲ ರಕ್ಷಣಾ ಕ್ರಮಗಳು",
+      "path": "safe_ka",
+      "buttonText": "ರಸಪ್ರಶ್ನೆ ತೆಗೆದುಕೊಳ್ಳಿ",
+      "successMessage": "ಹೊಸ ಕರೋನವೈರಸ್ ವಿರುದ್ಧದ ಮೂಲಭೂತ ರಕ್ಷಣಾತ್ಮಕ ಕ್ರಮಗಳ ಬಗ್ಗೆ ನಿಮಗೆ ಈಗ ತಿಳಿದಿದೆ",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "ನೀವು ಆಗಾಗ್ಗೆ ಕೈ ತೊಳೆಯುತ್ತೀರಾ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು, ನಾನು ಆಗಾಗ್ಗೆ ಕೈ ತೊಳೆಯುತ್ತೇನೆ",
+              "title": "ಒಳ್ಳೆಯದು, ಆಗಾಗ್ಗೆ ನಿಮ್ಮ ಕೈಗಳನ್ನು ತೊಳೆಯಿರಿ",
+              "description": [
+                "ನಿಮ್ಮ ಕೈಗಳನ್ನು ಆಗಾಗ್ಗೆ, ನಿಯಮಿತವಾಗಿ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಸೋಪ್ ಮತ್ತು ನೀರಿನಿಂದ ತೊಳೆಯುವುದು ಅಥವಾ ಆಲ್ಕೋಹಾಲ್ ಆಧಾರಿತ ಹ್ಯಾಂಡ್ ರಬ್ ಅನ್ನು ಬಳಸುವುದು ನಿಮ್ಮ ಕೈಯಲ್ಲಿರುವ ವೈರಸ್‌ಗಳನ್ನು ಕೊಲ್ಲುತ್ತದೆ."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": true
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ನೀವು ಹೆಚ್ಚಾಗಿ ನಿಮ್ಮ ಕೈಗಳನ್ನು ತೊಳೆಯಬೇಕು",
+              "description": [
+                "ನಿಮ್ಮ ಕೈಗಳನ್ನು ಆಗಾಗ್ಗೆ, ನಿಯಮಿತವಾಗಿ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಸೋಪ್ ಮತ್ತು ನೀರಿನಿಂದ ಅಥವಾ ಆಲ್ಕೋಹಾಲ್ ಆಧಾರಿತ ಹ್ಯಾಂಡ್ ರಬ್ನಿಂದ ತೊಳೆಯುವುದು ನಿಮ್ಮ ಕೈಯಲ್ಲಿರುವ ವೈರಸ್‌ಗಳನ್ನು ಕೊಲ್ಲುತ್ತದೆ."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "ನೀವು ಆಗಾಗ್ಗೆ ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಮುಟ್ಟುತ್ತೀರಾ?",
+          "description": "add description for question",
+          "hint": "ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ಪರ್ಶಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ",
+          "answers": [
+            {
+              "option": "ಹೌದು, ನಾನು ಮಾಡುತ್ತೇನೆ",
+              "title": "ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ಪರ್ಶಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ",
+              "description": [
+                "ಕೈಗಳು ಅನೇಕ ಮೇಲ್ಮೈಗಳನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತವೆ ಮತ್ತು ವೈರಸ್‌ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಕಲುಷಿತಗೊಂಡ ನಂತರ ಕೈಗಳು ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಅಥವಾ ಬಾಯಿಗೆ ವೈರಸ್‌ನ್ನು ವರ್ಗಾಯಿಸಬಹುದು. ಅಲ್ಲಿಂದ ವೈರಸ್ ನಿಮ್ಮ ದೇಹವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮನ್ನು ರೋಗಿಗಳನ್ನಾಗಿ ಮಾಡಬಹುದು."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "ಇಲ್ಲ, ನಾನು ಮಾಡುವುದಿಲ್ಲ",
+              "title": "ಒಳ್ಳೆಯದು, ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಮುಟ್ಟುವುದನ್ನು ತಪ್ಪಿಸಿ.",
+              "description": [
+                "ಕೈಗಳು ಅನೇಕ ಮೇಲ್ಮೈಗಳನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತವೆ ಮತ್ತು ವೈರಸ್‌ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಕಲುಷಿತಗೊಂಡ ನಂತರ ಕೈಗಳು ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಅಥವಾ ಬಾಯಿಗೆ ವೈರಸ್‌ನ್ನು ವರ್ಗಾಯಿಸಬಹುದು. ಅಲ್ಲಿಂದ ವೈರಸ್ ನಿಮ್ಮ ದೇಹವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮನ್ನು ರೋಗಿಗಳನ್ನಾಗಿ ಮಾಡಬಹುದು."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚುತ್ತೀರಾ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು, ನಾನು ಮಾಡುತ್ತೇನೆ",
+              "title": "ಒಳ್ಳೆಯದು, ನೀವು ಮತ್ತು ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಜನರು ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುತ್ತಾರೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
+              "description": [
+                "ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ನಿಮ್ಮ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚಿ, ನಂತರ ಬಳಸಿದ ಅಂಗಾಂಶವನ್ನು ತಕ್ಷಣ ವಿಲೇವಾರಿ ಮಾಡಿ. ಹನಿಗಳು ವೈರಸ್ ಹರಡುತ್ತವೆ. ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಸುತ್ತಲಿನ ಜನರನ್ನು ಶೀತ, ಜ್ವರ ಮತ್ತು ವೈರಸ್‌ಗಳಿಂದ ರಕ್ಷಿಸಬಹುದು. COVID-19. "
+              ],
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+
+              "correctAnswer": true
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ.",
+              "description": [
+                "ನೀವು ಮತ್ತು ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಜನರು ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುತ್ತೀರಾ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಇದರರ್ಥ ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ನಿಮ್ಮ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚಿಕೊಳ್ಳಿ, ನಂತರ ಬಳಸಿದ ಅಂಗಾಂಶವನ್ನು ತಕ್ಷಣ ವಿಲೇವಾರಿ ಮಾಡಿ.",
+                "ಹನಿಗಳು ವೈರಸ್ ಹರಡುತ್ತವೆ. ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಸುತ್ತಲಿನ ಜನರನ್ನು ಶೀತ, ಜ್ವರ ಮತ್ತು COVID-19 ನಂತಹ ವೈರಸ್‌ಗಳಿಂದ ರಕ್ಷಿಸುತ್ತೀರಿ."              ],
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "ನೀವು ಯಾವುದೇ ಹೃದಯರಕ್ತನಾಳದ ಅಥವಾ ದೀರ್ಘಕಾಲದ ಉಸಿರಾಟದ ಕಾಯಿಲೆ, ಮಧುಮೇಹ, ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ಅಥವಾ ಕ್ಯಾನ್ಸರ್ ರೋಗಿಯಾಗಿದ್ದೀರಾ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು",
+              "title": "ಕಾಳಜಿ ವಹಿಸಿ, ಸೋಂಕಿಗೆ ಒಳಗಾಗಿದ್ದರೆ ನಿಮಗೆ ಹೆಚ್ಚಿನ ತೊಂದರೆ ಉಂಟಾಗುತ್ತದೆ",
+              "description": [
+                "ನೀವು ಮೊದಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಕೊರೊನಾವೈರಸ್ನಿಂದ ಮಾರಣಾಂತಿಕ ಅಪಾಯ ಹೆಚ್ಚು. ನೀವು ಈ ವರ್ಗಕ್ಕೆ ಸೇರಿದರೆ ಹೆಚ್ಚಿನ ಕಾಳಜಿ ವಹಿಸಿ. ನೀವು ರೋಗಲಕ್ಷಣಗಳನ್ನು ಅನುಭವಿಸಿದರೆ ತಕ್ಷಣ ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ನಿಮಗೆ ತೊಡಕುಗಳ ಸಾಧ್ಯತೆ ಕಡಿಮೆ",
+              "description": [
+                "ಅಂತಹ ಮೊದಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಗಳು ಇಲ್ಲದಿರುವುದು ಸೋಂಕಿಗೆ ಒಳಗಾಗಿದ್ದರೆ ತೊಡಕುಗಳ ವಿಚಿತ್ರತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ"
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "ಜ್ವರ, ಕೆಮ್ಮು ಅಥವಾ ಉಸಿರಾಟದ ತೊಂದರೆಗಳಿಂದ ನೀವು ನಿಮ್ಮನ್ನು ಕಂಡುಕೊಂಡರೆ, ಏನು ಮಾಡಬೇಕೆಂದು ನಿಮಗೆ ತಿಳಿದಿದೆಯೇ?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "ಹೌದು",
+              "title": "ಒಳ್ಳೆಯದು, ನೀವು ರೋಗಲಕ್ಷಣವನ್ನು ಹೊಂದಿದ್ದರೆ, ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡುವುದು ಮೊದಲನೆಯದು.",
+              "description": [
+                "ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ಆದಷ್ಟು ಬೇಗ ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡಿ. ನಿಮಗೆ ಅನಾರೋಗ್ಯ ಅನಿಸಿದರೆ ಮನೆಯಲ್ಲೇ ಇರಿ. ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ ಮತ್ತು ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡಿ. ನಿಮ್ಮ ನಿರ್ದೇಶನಗಳನ್ನು ಅನುಸರಿಸಿ ಸ್ಥಳೀಯ ಆರೋಗ್ಯ ಪ್ರಾಧಿಕಾರ. ",
+                "ರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಸ್ಥಳೀಯ ಅಧಿಕಾರಿಗಳು ನಿಮ್ಮ ಪ್ರದೇಶದ ಪರಿಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಹೆಚ್ಚು ನವೀಕೃತ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಆರೋಗ್ಯ ರಕ್ಷಣೆ ನೀಡುಗರು ನಿಮ್ಮನ್ನು ಸರಿಯಾದ ಆರೋಗ್ಯ ಸೌಲಭ್ಯಕ್ಕೆ ತ್ವರಿತವಾಗಿ ನಿರ್ದೇಶಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ. ಇದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುತ್ತದೆ ಮತ್ತು ವೈರಸ್‌ಗಳ ಹರಡುವಿಕೆಯನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಇತರ ಸೋಂಕುಗಳು. "
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "ಇಲ್ಲ",
+              "title": "ನೀವು ರೋಗಲಕ್ಷಣವನ್ನು ಹೊಂದಿದ್ದರೆ ತುರ್ತು ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಪಡೆಯಿರಿ.",
+              "description": [
+                "ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ಆದಷ್ಟು ಬೇಗ ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡಿ. ನಿಮಗೆ ಅನಾರೋಗ್ಯ ಅನಿಸಿದರೆ ಮನೆಯಲ್ಲೇ ಇರಿ. ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ ಮತ್ತು ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡಿ. ನಿಮ್ಮ ನಿರ್ದೇಶನಗಳನ್ನು ಅನುಸರಿಸಿ ಸ್ಥಳೀಯ ಆರೋಗ್ಯ ಪ್ರಾಧಿಕಾರ. ",
+                "ರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಸ್ಥಳೀಯ ಅಧಿಕಾರಿಗಳು ನಿಮ್ಮ ಪ್ರದೇಶದ ಪರಿಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಹೆಚ್ಚು ನವೀಕೃತ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಆರೋಗ್ಯ ರಕ್ಷಣೆ ನೀಡುಗರು ನಿಮ್ಮನ್ನು ಸರಿಯಾದ ಆರೋಗ್ಯ ಸೌಲಭ್ಯಕ್ಕೆ ತ್ವರಿತವಾಗಿ ನಿರ್ದೇಶಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ. ಇದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುತ್ತದೆ ಮತ್ತು ವೈರಸ್‌ಗಳ ಹರಡುವಿಕೆಯನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಇತರ ಸೋಂಕುಗಳು. "
+              ],
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
     }
+    
   ],
   "links": []
 }
