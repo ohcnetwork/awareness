@@ -2234,6 +2234,395 @@
           ]
         }
       ]
+
+    },
+    {
+      "language": "english",
+      "title": "Protective measures",
+      "description": "Basic protective measures against the new coronavirus",
+      "path": "protective_measures",
+      "buttonText": "Take the Quiz",
+      "successMessage": "You are now aware of Basic protective measures against the new coronavirus",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Do you practice respiratory hygiene?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, make sure you, and the people around you, follow good respiratory hygiene.",
+              "description": [
+                "Good, keeping respiratory hygiene not only keeps you from getting infected but also helps others  by setting an example to get a front step towards  to fight against  CoVID 19 "
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "Practice good respiratory hygiene.",
+              "description": [
+                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.",
+                "Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Do you strictly follow advice given by public health officials and your health care provider?",
+          "description": "add description for question",
+          "hint": "Avoid touching eyes, nose and mouth",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, Stay informed and listen to health officals",
+              "description": [
+                "It is always good to get proper knowledge about what is happening, how to prevent virus infection, and also primarily to educate others. Find help from the health department immediately if you feel you are symptomatic"
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "You need to stay informed and listen to health officals",
+              "description": [
+                "Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.",
+                "Why? National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Do you know how to put on a mask and how to dispose of it?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, using masks properly can help prevent the virus",
+              "description": [
+                "Masks help in preventing the viral infection so important to know how to use them and destroy them properly. Refer the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "You need to know how to use a mask properly",
+              "description": [
+                "Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.",
+                "Cover your mouth and nose with the mask and make sure there are no gaps between your face and the mask.",
+                "Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.",
+                "Replace the mask with a new one as soon as it is damp and do not re-use single-use masks.",
+                "To remove the mask: remove it from behind (Do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.",
+                "Watch the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Are you flying home from a COVID-19 infected country? Do you know what to do?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I do",
+              "title": "Good, follow all instructions given to you at the airport and put yourself in a 14 day home quarantine.",
+              "description": [
+                "All the necessary instructions will be provided to you inside the airplane and at the airport. Please take extra care in understanding and complying with them. Do not try to hide your travel history or symptoms. This can only lead to problems down the lane. You might be subjected to a health checkup at the airport upon arrival. Please co-operate with the airport officals completely, they are working for your own safety. After getting home, please put yourself in a 14 day home quarantine and contact the local health bodies if you face any symptoms."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "No, I don't",
+              "title": "Follow all instructions given to you at airports and put yourself in a 14 day home quarantine.",
+              "description": [
+                "All the necessary instructions will be provided to you inside the airplane and at the airport. Please take extra care in understanding and complying with them. Do not try to hide your travel history or symptoms. This can only lead to problems down the lane. You might be subjected to a health checkup at the airport upon arrival. Please co-operate with the airport officals completely, they are working for your own safety. After getting home, please put yourself in a 14 day home quarantine and contact the local health bodies if you face any symptoms."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Are you planning to attend or organise any event or gathering in the coming weeks?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I am",
+              "title": "Don't! Avoid all gatherings for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Mass gatherings of people are an easy way for the virus to spread. Avoid attending any kind of events including marriages, funerals, movies and other public events for the next few weeks. If you are organisor of any such event, consider postponing the event to a later date for the safety of your attendees."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "No, I am not",
+              "title": "Good, avoid any mass gatherings for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Mass gatherings of people are an easy way for the virus to spread. Avoid attending any kind of events including marriages, funerals, movies and other public events for the next few weeks. If you are organisor of any such event, consider postponing the event to a later date for the safety of your attendees."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Are you planning to travel somewhere in the coming weeks?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I am",
+              "title": "Don't, it is best to stay wherever you are for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Avoid all kinds of trips, business or pleasure, for the next few weeks. You can come in contact with an infected person while travelling. It is best to stay wherever you already are. Travel outside only to get medical help."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "No, I am not",
+              "title": "Good, avoid any kind of travel for the next few weeks to prevent the spread of COVID-19.",
+              "description": [
+                "Avoid all kinds of trips, business or pleasure, for the next few weeks. You can come in contact with an infected person while travelling. It is best to stay wherever you already are. Travel outside only to get medical help."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do you know when to use a mask?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "I know when to use masks",
+              "title": "Good, using masks the right way will help prevent the virus",
+              "description": [
+                "It is important to know when to use masks and educate others on the same.",
+                "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
+                "Wear a mask if you are coughing or sneezing.",
+                "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
+                "If you wear a mask, then you must know how to use it and dispose of it properly.",
+                "Watch the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": true
+            },
+            {
+              "option": "I'm not quite sure",
+              "title": "Be informed about when to use masks",
+              "description": [
+                "It's important to know when to use masks and educate others on the same.",
+                "If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.",
+                "Wear a mask if you are coughing or sneezing.",
+                "Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.",
+                "If you wear a mask, then you must know how to use it and dispose of it properly.",
+                "Watch the video below to learn more:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "english",
+      "title": "Myth Busters",
+      "description": "Common myths and misconceptions regarding COVID-19",
+      "path": "myth_busters",
+      "buttonText": "Take the Quiz",
+      "successMessage": "Those were the common myths related to COVID-19",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Can weather influence the corona outbreak?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Hot and Humid Conditions kill the Virus!",
+              "title": "No, COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "May be in cold climate!",
+              "title": "No, There is no reason to believe that cold weather can kill the new coronavirus",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-cold-snow.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "COVID-19 virus can be transmitted in ALL AREAS",
+              "title": "COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather.",
+              "description": [
+                "Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can Hot baths help prevent COVID-19?",
+          "description": "add description for question",
+          "hint": "Avoid touching eyes, nose and mouth",
+          "answers": [
+            {
+              "option": "Yes, Hot baths can help prevent the virus",
+              "title": "Taking a hot bath will not prevent you from catching COVID-19. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, Taking a hot bath will not prevent the virus",
+              "title": "Taking a hot bath will not prevent you from catching COVID-19. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can an UV disinfection lamp kill the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, radiations are powerful so UV disinfection lamps are useful",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, radiations are harmful ",
+              "title": "UV lamps should not be used to sterilize hands or other areas of skin.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Can spraying alcohol or chlorine all over your body kill the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Maybe, since chlorine is an effective disinfectant.",
+              "title": "No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, spraying alcohol or chlorine won't help",
+              "title": "Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Have you heard about any vaccines for this virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, I've had heard about some",
+              "title": "No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, vaccines are not yet available",
+              "title": "Vaccines are not yet available, but researchers around the globe are working on it.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do rinsing your nose with saline prevent the virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, rinsing your nose with saline can help",
+              "title": "No. There is NO evidence that regularly rinsing the nose with saline helps prevent the virus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, rinsing your nose with saline does not help",
+              "title": "There is NO evidence that regularly rinsing the nose with saline helps prevent the virus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Do you know if any specific age-groups are at risk?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, may be elderly ones ",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Yes, little ones because of their poor immunity ",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Not quite sure",
+              "title": "People of all ages can be infected by the new coronavirus (2019-nCoV). But, Older people and people with pre-existing medical conditions appear to be more vulnerable",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Is the use of antibiotics effective? Or know any specific medicines",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Yes, fever can be dealt with antibiotics then why not COVID-19",
+              "title": "No, antibiotics do not work against viruses, only bacteria.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "No, because antibiotics are for bacterial infections",
+              "title": "Antibiotics do not work against viruses, only bacteria.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": true
+            }
+          ]
+        }
+      ]
+
     }
     
   ],

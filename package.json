@@ -6,12 +6,13 @@
     "bs-platform": "7.0.1",
     "chai": "^4.2.0",
     "chai-json-schema": "^1.5.1",
-    "mocha": "^7.1.0",
+    "mocha": "^7.1.1",
     "parcel-bundler": "^1.12.4",
     "strip-json-comments": "^3.0.1",
     "tailwindcss": "^1.1.4"
   },
   "dependencies": {
+    "minimist": "^1.2.5",
     "reason-react": ">=0.7.0"
   },
   "scripts": {
