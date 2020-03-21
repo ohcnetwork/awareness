@@ -2124,10 +2124,10 @@
               "correctAnswer": true
             },
             {
-              "option": "Nope",
-              "title": "You need to wash your hands more frequently",
+              "option": "ಇಲ್ಲ",
+              "title": "ನೀವು ಹೆಚ್ಚಾಗಿ ನಿಮ್ಮ ಕೈಗಳನ್ನು ತೊಳೆಯಬೇಕು",
               "description": [
-                "Washing your hands frequently, regularly and thoroughly with soap and water or with alcohol-based hand rub kills viruses that may be on your hands."
+                "ನಿಮ್ಮ ಕೈಗಳನ್ನು ಆಗಾಗ್ಗೆ, ನಿಯಮಿತವಾಗಿ ಮತ್ತು ಸಂಪೂರ್ಣವಾಗಿ ಸೋಪ್ ಮತ್ತು ನೀರಿನಿಂದ ಅಥವಾ ಆಲ್ಕೋಹಾಲ್ ಆಧಾರಿತ ಹ್ಯಾಂಡ್ ರಬ್ನಿಂದ ತೊಳೆಯುವುದು ನಿಮ್ಮ ಕೈಯಲ್ಲಿರುವ ವೈರಸ್‌ಗಳನ್ನು ಕೊಲ್ಲುತ್ತದೆ."
               ],
               "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
               "correctAnswer": false
@@ -2135,38 +2135,38 @@
           ]
         },
         {
-          "title": "Do you often touch your eyes, nose and mouth?",
+          "title": "ನೀವು ಆಗಾಗ್ಗೆ ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಮುಟ್ಟುತ್ತೀರಾ?",
           "description": "add description for question",
-          "hint": "Avoid touching eyes, nose and mouth",
+          "hint": "ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ಪರ್ಶಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ",
           "answers": [
             {
-              "option": "Yes, I do",
-              "title": "Avoid touching eyes, nose and mouth.",
+              "option": "ಹೌದು, ನಾನು ಮಾಡುತ್ತೇನೆ",
+              "title": "ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಸ್ಪರ್ಶಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ",
               "description": [
-                "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
+                "ಕೈಗಳು ಅನೇಕ ಮೇಲ್ಮೈಗಳನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತವೆ ಮತ್ತು ವೈರಸ್‌ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಕಲುಷಿತಗೊಂಡ ನಂತರ ಕೈಗಳು ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಅಥವಾ ಬಾಯಿಗೆ ವೈರಸ್‌ನ್ನು ವರ್ಗಾಯಿಸಬಹುದು. ಅಲ್ಲಿಂದ ವೈರಸ್ ನಿಮ್ಮ ದೇಹವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮನ್ನು ರೋಗಿಗಳನ್ನಾಗಿ ಮಾಡಬಹುದು."
               ],
               "correctAnswer": false
             },
             {
-              "option": "No, I don't",
-              "title": "Good, avoid touching eyes, nose and mouth.",
+              "option": "ಇಲ್ಲ, ನಾನು ಮಾಡುವುದಿಲ್ಲ",
+              "title": "ಒಳ್ಳೆಯದು, ಕಣ್ಣು, ಮೂಗು ಮತ್ತು ಬಾಯಿಯನ್ನು ಮುಟ್ಟುವುದನ್ನು ತಪ್ಪಿಸಿ.",
               "description": [
-                "Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick."
+                "ಕೈಗಳು ಅನೇಕ ಮೇಲ್ಮೈಗಳನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತವೆ ಮತ್ತು ವೈರಸ್‌ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಕಲುಷಿತಗೊಂಡ ನಂತರ ಕೈಗಳು ನಿಮ್ಮ ಕಣ್ಣು, ಮೂಗು ಅಥವಾ ಬಾಯಿಗೆ ವೈರಸ್‌ನ್ನು ವರ್ಗಾಯಿಸಬಹುದು. ಅಲ್ಲಿಂದ ವೈರಸ್ ನಿಮ್ಮ ದೇಹವನ್ನು ಪ್ರವೇಶಿಸಬಹುದು ಮತ್ತು ನಿಮ್ಮನ್ನು ರೋಗಿಗಳನ್ನಾಗಿ ಮಾಡಬಹುದು."
               ],
               "correctAnswer": true
             }
           ]
         },
         {
-          "title": "Do you cover your mouth and nose with your bent elbow or tissue when you cough or sneeze?",
+          "title": "ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚುತ್ತೀರಾ?",
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Yes, I do",
-              "title": "Good, make sure you, and the people around you, follow good respiratory hygiene.",
+              "option": "ಹೌದು, ನಾನು ಮಾಡುತ್ತೇನೆ",
+              "title": "ಒಳ್ಳೆಯದು, ನೀವು ಮತ್ತು ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಜನರು ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುತ್ತಾರೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
               "description": [
-                "Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately. Droplets spread virus. By following good respiratory hygiene you can protect the people around you from viruses such as cold, flu and COVID-19."
+                "ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ನಿಮ್ಮ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚಿ, ನಂತರ ಬಳಸಿದ ಅಂಗಾಂಶವನ್ನು ತಕ್ಷಣ ವಿಲೇವಾರಿ ಮಾಡಿ. ಹನಿಗಳು ವೈರಸ್ ಹರಡುತ್ತವೆ. ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಸುತ್ತಲಿನ ಜನರನ್ನು ಶೀತ, ಜ್ವರ ಮತ್ತು ವೈರಸ್‌ಗಳಿಂದ ರಕ್ಷಿಸಬಹುದು. COVID-19. "
               ],
               //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
@@ -2174,12 +2174,11 @@
               "correctAnswer": true
             },
             {
-              "option": "No, I don't",
-              "title": "Practice good respiratory hygiene.",
+              "option": "ಇಲ್ಲ",
+              "title": "ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ.",
               "description": [
-                "Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze, then dispose of the used tissue immediately.",
-                "Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19."
-              ],
+                "ನೀವು ಮತ್ತು ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ಜನರು ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುತ್ತೀರಾ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ಇದರರ್ಥ ನೀವು ಕೆಮ್ಮುವಾಗ ಅಥವಾ ಸೀನುವಾಗ ನಿಮ್ಮ ಬಾಗಿದ ಮೊಣಕೈ ಅಥವಾ ಅಂಗಾಂಶದಿಂದ ನಿಮ್ಮ ಬಾಯಿ ಮತ್ತು ಮೂಗನ್ನು ಮುಚ್ಚಿಕೊಳ್ಳಿ, ನಂತರ ಬಳಸಿದ ಅಂಗಾಂಶವನ್ನು ತಕ್ಷಣ ವಿಲೇವಾರಿ ಮಾಡಿ.",
+                "ಹನಿಗಳು ವೈರಸ್ ಹರಡುತ್ತವೆ. ಉತ್ತಮ ಉಸಿರಾಟದ ನೈರ್ಮಲ್ಯವನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ ನಿಮ್ಮ ಸುತ್ತಲಿನ ಜನರನ್ನು ಶೀತ, ಜ್ವರ ಮತ್ತು COVID-19 ನಂತಹ ವೈರಸ್‌ಗಳಿಂದ ರಕ್ಷಿಸುತ್ತೀರಿ."              ],
               //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
               "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
               "correctAnswer": false
@@ -2187,48 +2186,48 @@
           ]
         },
         {
-          "title": "Are you a patient of any Cardiovascular or Chronic respiratory disease, Diabetes, Hypertension or Cancer?",
+          "title": "ನೀವು ಯಾವುದೇ ಹೃದಯರಕ್ತನಾಳದ ಅಥವಾ ದೀರ್ಘಕಾಲದ ಉಸಿರಾಟದ ಕಾಯಿಲೆ, ಮಧುಮೇಹ, ಅಧಿಕ ರಕ್ತದೊತ್ತಡ ಅಥವಾ ಕ್ಯಾನ್ಸರ್ ರೋಗಿಯಾಗಿದ್ದೀರಾ?",
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Yes, I Am",
-              "title": "Take care, you have a higher chance of complication if infected",
+              "option": "ಹೌದು",
+              "title": "ಕಾಳಜಿ ವಹಿಸಿ, ಸೋಂಕಿಗೆ ಒಳಗಾಗಿದ್ದರೆ ನಿಮಗೆ ಹೆಚ್ಚಿನ ತೊಂದರೆ ಉಂಟಾಗುತ್ತದೆ",
               "description": [
-                "The risk of fatality from Coronavirus is higher if you have any such pre-existing conditions. Take extra care if you fall into this category. Seek medical attention immediately if you experience the symptoms."
+                "ನೀವು ಮೊದಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಕೊರೊನಾವೈರಸ್ನಿಂದ ಮಾರಣಾಂತಿಕ ಅಪಾಯ ಹೆಚ್ಚು. ನೀವು ಈ ವರ್ಗಕ್ಕೆ ಸೇರಿದರೆ ಹೆಚ್ಚಿನ ಕಾಳಜಿ ವಹಿಸಿ. ನೀವು ರೋಗಲಕ್ಷಣಗಳನ್ನು ಅನುಭವಿಸಿದರೆ ತಕ್ಷಣ ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ."
               ],
               "correctAnswer": false
             },
             {
-              "option": "No, I'm not",
-              "title": "You have considerably lesser chance of complications",
+              "option": "ಇಲ್ಲ",
+              "title": "ನಿಮಗೆ ತೊಡಕುಗಳ ಸಾಧ್ಯತೆ ಕಡಿಮೆ",
               "description": [
-                "Having no such such pre-existing conditions will decrease the odds of complications, if infected"
+                "ಅಂತಹ ಮೊದಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಪರಿಸ್ಥಿತಿಗಳು ಇಲ್ಲದಿರುವುದು ಸೋಂಕಿಗೆ ಒಳಗಾಗಿದ್ದರೆ ತೊಡಕುಗಳ ವಿಚಿತ್ರತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ"
               ],
               "correctAnswer": true
             }
           ]
         },
         {
-          "title": "If you find yourself with fever, cough or difficulty in breathing, do you know exactly what to do in the current scenario?",
+          "title": "ಜ್ವರ, ಕೆಮ್ಮು ಅಥವಾ ಉಸಿರಾಟದ ತೊಂದರೆಗಳಿಂದ ನೀವು ನಿಮ್ಮನ್ನು ಕಂಡುಕೊಂಡರೆ, ಏನು ಮಾಡಬೇಕೆಂದು ನಿಮಗೆ ತಿಳಿದಿದೆಯೇ?",
           "description": "add description for question",
           "hint": "",
           "answers": [
             {
-              "option": "Yes, I do",
-              "title": "Good, if you're symptomatic, seeking medical care is the first thing to do.",
+              "option": "ಹೌದು",
+              "title": "ಒಳ್ಳೆಯದು, ನೀವು ರೋಗಲಕ್ಷಣವನ್ನು ಹೊಂದಿದ್ದರೆ, ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡುವುದು ಮೊದಲನೆಯದು.",
               "description": [
-                "If you have fever, cough and difficulty breathing, seek medical care as soon as possible. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
-                "National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
+                "ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ಆದಷ್ಟು ಬೇಗ ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡಿ. ನಿಮಗೆ ಅನಾರೋಗ್ಯ ಅನಿಸಿದರೆ ಮನೆಯಲ್ಲೇ ಇರಿ. ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ ಮತ್ತು ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡಿ. ನಿಮ್ಮ ನಿರ್ದೇಶನಗಳನ್ನು ಅನುಸರಿಸಿ ಸ್ಥಳೀಯ ಆರೋಗ್ಯ ಪ್ರಾಧಿಕಾರ. ",
+                "ರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಸ್ಥಳೀಯ ಅಧಿಕಾರಿಗಳು ನಿಮ್ಮ ಪ್ರದೇಶದ ಪರಿಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಹೆಚ್ಚು ನವೀಕೃತ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಆರೋಗ್ಯ ರಕ್ಷಣೆ ನೀಡುಗರು ನಿಮ್ಮನ್ನು ಸರಿಯಾದ ಆರೋಗ್ಯ ಸೌಲಭ್ಯಕ್ಕೆ ತ್ವರಿತವಾಗಿ ನಿರ್ದೇಶಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ. ಇದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುತ್ತದೆ ಮತ್ತು ವೈರಸ್‌ಗಳ ಹರಡುವಿಕೆಯನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಇತರ ಸೋಂಕುಗಳು. "
               ],
               "correctAnswer": true
             },
             {
-              "option": "No, I don't",
-              "title": "Seek urgent medical care if you're symptomatic.",
+              "option": "ಇಲ್ಲ",
+              "title": "ನೀವು ರೋಗಲಕ್ಷಣವನ್ನು ಹೊಂದಿದ್ದರೆ ತುರ್ತು ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಪಡೆಯಿರಿ.",
               "description": [
-                "If you have fever, cough and difficulty breathing, seek medical care as soon as possible. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.",
-                "National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections."
+                "ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ಆದಷ್ಟು ಬೇಗ ವೈದ್ಯಕೀಯ ಆರೈಕೆಯನ್ನು ಮಾಡಿ. ನಿಮಗೆ ಅನಾರೋಗ್ಯ ಅನಿಸಿದರೆ ಮನೆಯಲ್ಲೇ ಇರಿ. ನಿಮಗೆ ಜ್ವರ, ಕೆಮ್ಮು ಮತ್ತು ಉಸಿರಾಟದ ತೊಂದರೆ ಇದ್ದರೆ, ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆ ಪಡೆಯಿರಿ ಮತ್ತು ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡಿ. ನಿಮ್ಮ ನಿರ್ದೇಶನಗಳನ್ನು ಅನುಸರಿಸಿ ಸ್ಥಳೀಯ ಆರೋಗ್ಯ ಪ್ರಾಧಿಕಾರ. ",
+                "ರಾಷ್ಟ್ರೀಯ ಮತ್ತು ಸ್ಥಳೀಯ ಅಧಿಕಾರಿಗಳು ನಿಮ್ಮ ಪ್ರದೇಶದ ಪರಿಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಹೆಚ್ಚು ನವೀಕೃತ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುತ್ತಾರೆ. ಮುಂಚಿತವಾಗಿ ಕರೆ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಆರೋಗ್ಯ ರಕ್ಷಣೆ ನೀಡುಗರು ನಿಮ್ಮನ್ನು ಸರಿಯಾದ ಆರೋಗ್ಯ ಸೌಲಭ್ಯಕ್ಕೆ ತ್ವರಿತವಾಗಿ ನಿರ್ದೇಶಿಸಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ. ಇದು ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುತ್ತದೆ ಮತ್ತು ವೈರಸ್‌ಗಳ ಹರಡುವಿಕೆಯನ್ನು ತಡೆಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ ಮತ್ತು ಇತರ ಸೋಂಕುಗಳು. "
               ],
               "correctAnswer": false
             }
