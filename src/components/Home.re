@@ -111,7 +111,7 @@ let make = () => {
     /* Footer */
     <footer className="bg-white w-full border-b border-gray-200 mt-auto">
       <div className="max-w-screen-sm mx-auto">
-        <div className="flex justify-center items-end py-4 pl-3 pr-4 md:px-0">
+        <div className="flex justify-center items-center py-4 pl-3 pr-4 md:px-0">
           <a
           href="https://github.com/coronasafe/awareness"
           className="font-semibold text-xs md:text-base">
@@ -119,7 +119,7 @@ let make = () => {
         </a>
           <a className="" href="https://github.com/coronasafe/awareness">
             <img
-              className="object-contain github_svg ml-3 w-6"
+              className="object-contain github_svg ml-3 w-5"
               src=github_logo
               title="Coronasafe  Awareness (Github)"
               alt="CoronaSafe Awareness (Github)"
