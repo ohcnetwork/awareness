@@ -115,7 +115,7 @@ let make = () => {
           <a
           href="https://github.com/coronasafe/awareness"
           className="font-semibold text-xs md:text-base">
-          {"A quiz based App for staying safe in COVID 19 Outbreak" |> str}
+          {"A quiz based app for staying safe in COVID 19 Outbreak" |> str}
         </a>
           <a className="" href="https://github.com/coronasafe/awareness">
             <img
