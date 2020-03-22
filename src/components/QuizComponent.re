@@ -8,7 +8,6 @@ type page =
 type state = {
   page,
   selectedAnswer: option(Answer.t),
-  currentQuestionIndex: int,
 };
 
 let updateAnswer = (setState, answer, _event) => {
@@ -62,14 +61,15 @@ let showSelectedAnswer = state => {
   };
 };
 
-let showQuestion = (quiz, question, setState, state, totalQuestions) => {
+let showQuestion =
+    (quiz, question, setState, state, totalQuestions, currentQuestionIndex) => {
   <div className="pt-4 pb-6 pl-3 pr-4 md:px-0">
     <div
       className="quiz-component__container border-2 border-gray-800 rounded-lg bg-orange-100 px-6 py-6 md:px-10">
       <div
         className="inline-flex leading-tight text-sm text-orange-800 font-semibold bg-orange-200 py-1 px-1 rounded">
         <p className="mr-1">
-          {(state.currentQuestionIndex + 1 |> string_of_int)
+          {(currentQuestionIndex + 1 |> string_of_int)
            ++ " of "
            ++ (totalQuestions |> string_of_int)
            ++ " -"
@@ -97,16 +97,6 @@ let showQuestion = (quiz, question, setState, state, totalQuestions) => {
     </div>
     <div> {showSelectedAnswer(state)} </div>
   </div>;
-};
-
-let nextQuestion = (setState, _event) => {
-  setState(state =>
-    {
-      ...state,
-      currentQuestionIndex: state.currentQuestionIndex + 1,
-      selectedAnswer: None,
-    }
-  );
 };
 
 let showSuccess = quiz => {
@@ -142,17 +132,40 @@ let showSuccess = quiz => {
   </div>;
 };
 
-let showQuiz = (quiz, questions, setState, state) => {
+module Link = {
+  [@react.component]
+  let make = (~href, ~onClick, ~className, ~children) => {
+    <a
+      className
+      href
+      onClick={e => {
+        ReactEvent.Mouse.preventDefault(e);
+        ReasonReactRouter.push(href);
+        onClick(e);
+      }}>
+      children
+    </a>;
+  };
+};
+
+let showQuiz =
+    (quiz, questions, setState, state, baseUrl, currentQuestionIndex) => {
   let totalQuestions = questions |> Array.length;
-  let currentQuestion =
-    questions |> ArrayUtils.getOpt(state.currentQuestionIndex);
-  let isLastQuestion = !(state.currentQuestionIndex < totalQuestions - 1);
+  let currentQuestion = questions |> ArrayUtils.getOpt(currentQuestionIndex);
+  let isLastQuestion = !(currentQuestionIndex < totalQuestions - 1);
 
   <div>
     <div>
       {switch (currentQuestion) {
        | Some(question) =>
-         showQuestion(quiz, question, setState, state, totalQuestions)
+         showQuestion(
+           quiz,
+           question,
+           setState,
+           state,
+           totalQuestions,
+           currentQuestionIndex,
+         )
        | None => React.null
        }}
     </div>
@@ -166,8 +179,16 @@ let showQuiz = (quiz, questions, setState, state) => {
                  className="btn border-2 border-green-600 bg-green-500 text-white hover:bg-green-600 hover:text-white focus:text-white focus:bg-green-600 button-xl w-full">
                  {"Complete" |> str}
                </button>
-             : <button
-                 onClick={nextQuestion(setState)}
+             : <Link
+                 onClick={_ =>
+                   setState(state => {...state, selectedAnswer: None})
+                 }
+                 href={
+                   "/"
+                   ++ baseUrl
+                   ++ "/"
+                   ++ Js.Int.toString(currentQuestionIndex + 2)
+                 }
                  className="btn border-2 border-gray-800 bg-orange-100 hover:bg-gray-900 hover:text-white focus:text-white focus:bg-gray-900 button-xl w-full">
                  {"Next Question" |> str}
                  <span className="ml-2">
@@ -181,7 +202,7 @@ let showQuiz = (quiz, questions, setState, state) => {
                      />
                    </svg>
                  </span>
-               </button>
+               </Link>
          | None => React.null
          }}
       </div>
@@ -190,16 +211,15 @@ let showQuiz = (quiz, questions, setState, state) => {
 };
 
 [@react.component]
-let make = (~quiz) => {
+let make = (~quiz, ~questionNo, ~baseUrl) => {
   let (state, setState) =
-    React.useState(() =>
-      {currentQuestionIndex: 0, selectedAnswer: None, page: Quiz}
-    );
+    React.useState(() => {selectedAnswer: None, page: Quiz});
+
   let questions = quiz |> Quiz.questions;
 
   <div>
     {switch (state.page) {
-     | Quiz => showQuiz(quiz, questions, setState, state)
+     | Quiz => showQuiz(quiz, questions, setState, state, baseUrl, questionNo)
      | Complete => showSuccess(quiz)
      }}
   </div>;
