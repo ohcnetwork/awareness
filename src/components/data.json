@@ -2237,7 +2237,7 @@
 
     },
     {
-      "language": "english",
+      "language": "kannada_wip",
       "title": "Protective measures",
       "description": "Basic protective measures against the new coronavirus",
       "path": "protective_measures",
@@ -2430,7 +2430,7 @@
       ]
     },
     {
-      "language": "english",
+      "language": "kannada_wip",
       "title": "Myth Busters",
       "description": "Common myths and misconceptions regarding COVID-19",
       "path": "myth_busters",
@@ -2624,7 +2624,7 @@
       ]
 
     }
-    
+
   ],
   "links": []
 }
