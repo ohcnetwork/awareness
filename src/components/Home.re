@@ -111,11 +111,11 @@ let make = () => {
     /* Footer */
     <footer className="bg-white w-full border-b border-gray-200 mt-auto">
       <div className="max-w-screen-sm mx-auto">
-        <div className="flex justify-start items-end py-4 pl-3 pr-4 md:px-0">
+        <div className="flex justify-center items-end py-4 pl-3 pr-4 md:px-0">
           <a
           href="https://github.com/coronasafe/awareness"
           className="font-semibold text-xs md:text-base">
-          {"Coronasafe  Awareness Quiz App " |> str}
+          {"A quiz based App for staying safe in COVID 19 Outbreak" |> str}
         </a>
           <a className="" href="https://github.com/coronasafe/awareness">
             <img
