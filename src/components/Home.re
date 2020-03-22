@@ -85,12 +85,18 @@ let make = () => {
           className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
           {{j|اردو|j} |> str}
         </a>
+	<a
+          onClick={_ => ReasonReactRouter.push("kannada")}
+          className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
+          {{j|ಕನ್ನಡ|j} |> str}
+        </a>
       </div>
       {switch (url.path) {
        | ["malayalam"] => showHome(quiz |> Quiz.filterByLang("malayalam"))
        | ["english"] => showHome(quiz |> Quiz.filterByLang("english"))
        | ["french"] => showHome(quiz |> Quiz.filterByLang("french"))
        | ["urdu"] => showHome(quiz |> Quiz.filterByLang("urdu"))
+       | ["kannada"] => showHome(quiz |> Quiz.filterByLang("kannada"))
        | [path] => showQuiz(path, quiz)
        | _ => showHome(quiz |> Quiz.default)
        }}
