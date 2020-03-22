@@ -1,6 +1,8 @@
 let str = React.string;
 [%bs.raw {|require("./Home.css")|}];
 let logo: string = [%raw "require('../assets/coronaSafeLogo.svg')"];
+let github_logo: string = [%raw "require('../assets/github.svg')"];
+
 
 let json = [%bs.raw {|require("./data.json")|}];
 let data = json |> Data.makeData;
@@ -43,7 +45,9 @@ let showQuiz = (path, quiz) => {
 let make = () => {
   let url = ReasonReactRouter.useUrl();
   let quiz = data |> Data.quiz;
-  <div>
+  <div className="main">
+
+    /* Header */
     <div className="bg-white w-full border-b border-gray-200">
       <div className="max-w-screen-sm mx-auto">
         <div className="flex justify-between items-end py-4 pl-3 pr-4 md:px-0">
@@ -60,9 +64,11 @@ let make = () => {
             className="font-semibold text-xs md:text-base">
             {"COVID-19 Literacy Mission" |> str}
           </a>
-        </div>
+        </div>  
       </div>
     </div>
+
+    /* Quiz cards */
     <div className="max-w-screen-sm mx-auto mt-4">
       <div className="text-gray-700 text-sm select-none px-3 md:px-0">
         <a
@@ -80,12 +86,12 @@ let make = () => {
           className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
           {{j|Français|j} |> str}
         </a>
-	 <a
+	      <a
           onClick={_ => ReasonReactRouter.push("urdu")}
           className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
           {{j|اردو|j} |> str}
         </a>
-	<a
+	      <a
           onClick={_ => ReasonReactRouter.push("kannada")}
           className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
           {{j|ಕನ್ನಡ|j} |> str}
@@ -101,5 +107,27 @@ let make = () => {
        | _ => showHome(quiz |> Quiz.default)
        }}
     </div>
+
+    /* Footer */
+    <footer className="bg-white w-full border-b border-gray-200 mt-auto">
+      <div className="max-w-screen-sm mx-auto">
+        <div className="flex justify-center items-center py-4 pl-3 pr-4 md:px-0">
+          <a
+          href="https://github.com/coronasafe/awareness"
+          className="font-semibold text-xs md:text-base">
+          {"A quiz based app for staying safe in COVID 19 Outbreak" |> str}
+        </a>
+          <a className="" href="https://github.com/coronasafe/awareness">
+            <img
+              className="object-contain github_svg ml-3 w-5"
+              src=github_logo
+              title="Coronasafe  Awareness (Github)"
+              alt="CoronaSafe Awareness (Github)"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
   </div>;
 };

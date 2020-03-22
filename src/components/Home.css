@@ -1,5 +1,19 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .home__container {
   position: relative;
+}
+
+.github_svg {
+  transition: all 0.3s ease-in-out;
+}
+
+.github_svg:hover {
+  transform: translateY(-5px);
 }
 
 .home__container::before {
