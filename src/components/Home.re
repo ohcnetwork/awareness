@@ -10,7 +10,7 @@ let showHome = quiz => {
   <div className="flex flex-wrap md:-mx-3 pt-4">
     {quiz
      |> Array.map(q =>
-          <div className="w-full md:auto pl-3 pr-4 md:px-3 pb-6">
+          <div className="w-full pl-3 pr-4 md:px-3 pb-6">
             <div
               className="home__container flex flex-col justify-between h-auto md:h-full border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6">
               <div>
@@ -72,8 +72,9 @@ let make = () => {
         </div>
       </div>
       /* Quiz cards */
-      <div className="max-w-screen-sm mx-auto mt-4">
-        <div className="text-gray-700 text-sm select-none px-3 md:px-0">
+      <div className="w-full md:max-w-screen-sm mx-auto mt-4">
+        <div
+          className="text-gray-700 text-sm select-none px-3 pb-2 md:p-0 overflow-x-auto md:overflow-hidden">
           <a
             onClick={_ => ReasonReactRouter.replace("/english")}
             className="home-langualge-filter__link hover:text-gray-900 hover:border-gray-900 ">
@@ -111,7 +112,7 @@ let make = () => {
          }}
       </div>
       /* Footer */
-      <footer className="bg-white w-full border-b border-gray-200 mt-auto">
+      <footer className="bg-white w-full border-t mt-auto">
         <div className="max-w-screen-sm mx-auto">
           <div
             className="flex justify-center items-center py-4 pl-3 pr-4 md:px-0">
