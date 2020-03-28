@@ -10,7 +10,7 @@ let showHome = quiz => {
   <div className="flex flex-wrap md:-mx-3 pt-4">
     {quiz
      |> Array.map(q =>
-          <div className="w-full md:w-1/2 pl-3 pr-4 md:px-3 pb-6">
+          <div className="w-full md:auto pl-3 pr-4 md:px-3 pb-6">
             <div
               className="home__container flex flex-col justify-between h-auto md:h-full border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6">
               <div>
